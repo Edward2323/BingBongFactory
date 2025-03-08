@@ -134,6 +134,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CapaEnditades.cs" />
     <Compile Include="Dashboard_form.cs">
       <SubType>Form</SubType>
     </Compile>
