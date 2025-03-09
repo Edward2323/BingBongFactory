@@ -135,30 +135,36 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CapaEnditades.cs" />
-    <Compile Include="Dashboard_form.cs">
+    <Compile Include="Presentacion\Dashboard_form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dashboard_form.Designer.cs">
+    <Compile Include="Presentacion\Dashboard_form.Designer.cs">
       <DependentUpon>Dashboard_form.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login_form.cs">
+    <Compile Include="Presentacion\frmInventario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login_form.Designer.cs">
+    <Compile Include="Presentacion\frmInventario.Designer.cs">
+      <DependentUpon>frmInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Login_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Login_form.Designer.cs">
       <DependentUpon>Login_form.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sign_in.cs">
+    <Compile Include="Presentacion\Sign_in.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sign_in.Designer.cs">
+    <Compile Include="Presentacion\Sign_in.Designer.cs">
       <DependentUpon>Sign_in.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Dashboard_form.resx">
+    <EmbeddedResource Include="Presentacion\Dashboard_form.resx">
       <DependentUpon>Dashboard_form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login_form.resx">
+    <EmbeddedResource Include="Presentacion\Login_form.resx">
       <DependentUpon>Login_form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -171,7 +177,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Sign_in.resx">
+    <EmbeddedResource Include="Presentacion\Sign_in.resx">
       <DependentUpon>Sign_in.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
@@ -189,7 +195,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Datos\" />
     <Folder Include="IMG\" />
+    <Folder Include="Negocio\" />
+    <Folder Include="Persistencia\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
