@@ -134,7 +134,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CapaEnditades.cs" />
+    <Compile Include="Datos\CapaEnditades.cs" />
+    <Compile Include="Datos\DBconnection.cs" />
     <Compile Include="Presentacion\Dashboard_form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -207,7 +208,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Datos\" />
     <Folder Include="IMG\" />
     <Folder Include="Negocio\" />
     <Folder Include="Persistencia\" />

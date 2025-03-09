@@ -2,18 +2,21 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Bing_Bong_Factory.Datos;
 using Microsoft.Win32;
 
 namespace Bing_Bong_Factory
 {
     public partial class Login_form : Form
     {
+        private DBconnection db = new DBconnection();
         public Login_form()
         {
             InitializeComponent();
@@ -68,10 +71,17 @@ namespace Bing_Bong_Factory
 
         private void Login_btn_clicl(object sender, EventArgs e)
         {
-            Dashboard_form dashboard_Form = new Dashboard_form();
-            dashboard_Form.Show();
-
-        }
+            if (db.LoginExict(bunifuTextBox1.Text, bunifuTextBox2.Text))
+            {
+                Dashboard_form dashboard_Form = new Dashboard_form();
+                dashboard_Form.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Usuario o contraseña incorrectos");
+            }
+        }         
 
         private void panel10_Paint(object sender, PaintEventArgs e)
         {
