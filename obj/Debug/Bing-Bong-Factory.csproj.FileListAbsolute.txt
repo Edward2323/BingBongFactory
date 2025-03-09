@@ -140,7 +140,6 @@ C:\Users\Dell\Desktop\BingBongFactory\bin\Debug\System.Text.Json.dll
 C:\Users\Dell\Desktop\BingBongFactory\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\Dell\Desktop\BingBongFactory\bin\Debug\System.ValueTuple.dll
 C:\Users\Dell\Desktop\BingBongFactory\bin\Debug\Bunifu.UI.WinForms.xml
-C:\Users\Dell\Desktop\BingBongFactory\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
 C:\Users\Dell\Desktop\BingBongFactory\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\Dell\Desktop\BingBongFactory\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Dell\Desktop\BingBongFactory\bin\Debug\RestSharp.xml
@@ -163,3 +162,5 @@ C:\Users\Dell\Desktop\BingBongFactory\obj\Debug\Bing-Bong-Factory.csproj.CoreCom
 C:\Users\Dell\Desktop\BingBongFactory\obj\Debug\Bing-Bon.D18C5A88.Up2Date
 C:\Users\Dell\Desktop\BingBongFactory\obj\Debug\Bing-Bong-Factory.exe
 C:\Users\Dell\Desktop\BingBongFactory\obj\Debug\Bing-Bong-Factory.pdb
+C:\Users\Dell\Desktop\BingBongFactory\obj\Debug\Bing_Bong_Factory.Presentacion.frmInventario.resources
+C:\Users\Dell\Desktop\BingBongFactory\obj\Debug\Bing_Bong_Factory.Presentacion.Inventario.frmInsertar.resources

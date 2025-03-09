@@ -141,10 +141,16 @@
     <Compile Include="Presentacion\Dashboard_form.Designer.cs">
       <DependentUpon>Dashboard_form.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentacion\frmInventario.cs">
+    <Compile Include="Presentacion\Inventario\frmInsertar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentacion\frmInventario.Designer.cs">
+    <Compile Include="Presentacion\Inventario\frmInsertar.Designer.cs">
+      <DependentUpon>frmInsertar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Inventario\frmInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Inventario\frmInventario.Designer.cs">
       <DependentUpon>frmInventario.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\Login_form.cs">
@@ -163,6 +169,12 @@
     </Compile>
     <EmbeddedResource Include="Presentacion\Dashboard_form.resx">
       <DependentUpon>Dashboard_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Inventario\frmInsertar.resx">
+      <DependentUpon>frmInsertar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Inventario\frmInventario.resx">
+      <DependentUpon>frmInventario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Login_form.resx">
       <DependentUpon>Login_form.cs</DependentUpon>

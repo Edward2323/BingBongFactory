@@ -72,5 +72,10 @@ namespace Bing_Bong_Factory
             dashboard_Form.Show();
 
         }
+
+        private void panel10_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

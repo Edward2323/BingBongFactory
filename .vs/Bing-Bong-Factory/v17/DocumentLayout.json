@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|c:\\users\\dell\\desktop\\bingbongfactory\\presentacion\\frminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|solutionrelative:presentacion\\frminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|c:\\users\\dell\\desktop\\bingbongfactory\\presentacion\\inventario\\frminsertar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|solutionrelative:presentacion\\inventario\\frminsertar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|c:\\users\\dell\\desktop\\bingbongfactory\\presentacion\\inventario\\frminsertar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|solutionrelative:presentacion\\inventario\\frminsertar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|c:\\users\\dell\\desktop\\bingbongfactory\\presentacion\\inventario\\frminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|solutionrelative:presentacion\\inventario\\frminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|c:\\users\\dell\\desktop\\bingbongfactory\\presentacion\\inventario\\frminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|solutionrelative:presentacion\\inventario\\frminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 205,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,14 +38,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmInventario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Presentacion\\frmInventario.cs",
-              "RelativeDocumentMoniker": "Presentacion\\frmInventario.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Presentacion\\frmInventario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Presentacion\\frmInventario.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "frmInsertar.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Presentacion\\Inventario\\frmInsertar.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Inventario\\frmInsertar.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Presentacion\\Inventario\\frmInsertar.cs",
+              "RelativeToolTip": "Presentacion\\Inventario\\frmInsertar.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwAcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T03:15:59.612Z",
+              "WhenOpened": "2025-03-09T04:57:15.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmInsertar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Presentacion\\Inventario\\frmInsertar.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Inventario\\frmInsertar.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Presentacion\\Inventario\\frmInsertar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion\\Inventario\\frmInsertar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T04:46:19.546Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmInventario.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Presentacion\\Inventario\\frmInventario.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Inventario\\frmInventario.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Presentacion\\Inventario\\frmInventario.cs",
+              "RelativeToolTip": "Presentacion\\Inventario\\frmInventario.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T04:12:06.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmInventario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Presentacion\\Inventario\\frmInventario.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Inventario\\frmInventario.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Presentacion\\Inventario\\frmInventario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion\\Inventario\\frmInventario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T04:10:12.329Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

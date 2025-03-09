@@ -3,43 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|c:\\users\\dell\\desktop\\bingbongfactory\\capaenditades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|solutionrelative:capaenditades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|c:\\users\\dell\\desktop\\bingbongfactory\\presentacion\\inventario\\frminsertar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|solutionrelative:presentacion\\inventario\\frminsertar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|C:\\Users\\Dell\\Desktop\\BingBongFactory\\dashboard_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|solutionrelative:dashboard_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|c:\\users\\dell\\desktop\\bingbongfactory\\presentacion\\inventario\\frminsertar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|solutionrelative:presentacion\\inventario\\frminsertar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|C:\\Users\\Dell\\Desktop\\BingBongFactory\\login_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|solutionrelative:login_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|c:\\users\\dell\\desktop\\bingbongfactory\\presentacion\\inventario\\frminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|solutionrelative:presentacion\\inventario\\frminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|C:\\Users\\Dell\\Desktop\\BingBongFactory\\login_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|solutionrelative:login_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|C:\\Users\\Dell\\Desktop\\BingBongFactory\\sign_in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|solutionrelative:sign_in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julio\\source\\repos\\Sistema_de_gestion_visitantes_f\\Sistema_de_gestion_visitantes\\Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|C:\\Users\\Dell\\Desktop\\BingBongFactory\\dashboard_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|solutionrelative:dashboard_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|C:\\Users\\Dell\\Desktop\\BingBongFactory\\dashboard_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|solutionrelative:dashboard_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|C:\\Users\\Dell\\Desktop\\BingBongFactory\\login_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|solutionrelative:login_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|C:\\Users\\Dell\\Desktop\\BingBongFactory\\sign_in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|solutionrelative:sign_in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|c:\\users\\dell\\desktop\\bingbongfactory\\presentacion\\inventario\\frminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39EFC23E-5689-4B6A-B127-72702CF3C411}|Bing-Bong-Factory.csproj|solutionrelative:presentacion\\inventario\\frminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,34 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 205,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login_form.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Login_form.Designer.cs",
-              "RelativeDocumentMoniker": "Login_form.Designer.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Login_form.Designer.cs",
-              "RelativeToolTip": "Login_form.Designer.cs",
-              "ViewState": "AgIAAD8CAAAAAAAAAAAhwFoCAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T15:35:39.221Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Sign_in.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Sign_in.cs",
-              "RelativeDocumentMoniker": "Sign_in.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Sign_in.cs",
-              "RelativeToolTip": "Sign_in.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T19:20:53.535Z",
-              "IsPinned": true
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -87,96 +38,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CapaEnditades.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\CapaEnditades.cs",
-              "RelativeDocumentMoniker": "CapaEnditades.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\CapaEnditades.cs",
-              "RelativeToolTip": "CapaEnditades.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "frmInsertar.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Presentacion\\Inventario\\frmInsertar.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Inventario\\frmInsertar.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Presentacion\\Inventario\\frmInsertar.cs",
+              "RelativeToolTip": "Presentacion\\Inventario\\frmInsertar.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwAcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T03:02:24.064Z",
+              "WhenOpened": "2025-03-09T04:57:15.762Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmInsertar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Presentacion\\Inventario\\frmInsertar.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Inventario\\frmInsertar.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Presentacion\\Inventario\\frmInsertar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion\\Inventario\\frmInsertar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T04:46:19.546Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Login_form.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Login_form.cs",
-              "RelativeDocumentMoniker": "Login_form.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Login_form.cs",
-              "RelativeToolTip": "Login_form.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Title": "frmInventario.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Presentacion\\Inventario\\frmInventario.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Inventario\\frmInventario.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Presentacion\\Inventario\\frmInventario.cs",
+              "RelativeToolTip": "Presentacion\\Inventario\\frmInventario.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T15:35:38.536Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\Sistema_de_gestion_visitantes_f\\Sistema_de_gestion_visitantes\\Login.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\julio\\source\\repos\\Sistema_de_gestion_visitantes_f\\Sistema_de_gestion_visitantes\\Login.cs",
-              "ToolTip": "C:\\Users\\julio\\source\\repos\\Sistema_de_gestion_visitantes_f\\Sistema_de_gestion_visitantes\\Login.cs",
-              "RelativeToolTip": "..\\..\\..\\julio\\source\\repos\\Sistema_de_gestion_visitantes_f\\Sistema_de_gestion_visitantes\\Login.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T19:02:34.18Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Dashboard_form.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Dashboard_form.Designer.cs",
-              "RelativeDocumentMoniker": "Dashboard_form.Designer.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Dashboard_form.Designer.cs",
-              "RelativeToolTip": "Dashboard_form.Designer.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAASwHEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T22:34:26.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dashboard_form.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Dashboard_form.cs",
-              "RelativeDocumentMoniker": "Dashboard_form.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Dashboard_form.cs",
-              "RelativeToolTip": "Dashboard_form.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T22:34:11.728Z"
+              "WhenOpened": "2025-03-09T04:12:06.373Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Login_form.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Login_form.cs",
-              "RelativeDocumentMoniker": "Login_form.cs",
-              "ToolTip": "C:\\Users\\angel\\Desktop\\BBDB\\BingBongFactory\\Bing-Bong-Factory\\Login_form.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\angel\\Desktop\\BBDB\\BingBongFactory\\Bing-Bong-Factory\\Login_form.cs [Design]",
+              "Title": "frmInventario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Presentacion\\Inventario\\frmInventario.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Inventario\\frmInventario.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Presentacion\\Inventario\\frmInventario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion\\Inventario\\frmInventario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T04:54:43.415Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Sign_in.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Sign_in.cs",
-              "RelativeDocumentMoniker": "Sign_in.cs",
-              "ToolTip": "C:\\Users\\julio\\source\\repos\\BingBongFactory\\Bing-Bong-Factory\\Sign_in.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\julio\\source\\repos\\BingBongFactory\\Bing-Bong-Factory\\Sign_in.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T17:16:45.954Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Dashboard_form.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\BingBongFactory\\Dashboard_form.cs",
-              "RelativeDocumentMoniker": "Dashboard_form.cs",
-              "ToolTip": "C:\\Users\\angel\\Desktop\\BBDB\\BingBongFactory\\Bing-Bong-Factory\\Dashboard_form.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\angel\\Desktop\\BBDB\\BingBongFactory\\Bing-Bong-Factory\\Dashboard_form.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T19:44:10.54Z"
+              "WhenOpened": "2025-03-09T04:10:12.329Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         },

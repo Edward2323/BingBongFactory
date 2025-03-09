@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bing_Bong_Factory.Presentacion;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,6 +18,10 @@ namespace Bing_Bong_Factory
             InitializeComponent();
         }
 
-      
+        private void lbInventario_Click(object sender, EventArgs e)
+        {
+            frmInventario frm = new frmInventario(); frm.Show();
+            this.Close();
+        }
     }
 }
