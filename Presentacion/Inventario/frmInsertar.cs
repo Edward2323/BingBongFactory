@@ -24,6 +24,7 @@ namespace Bing_Bong_Factory.Presentacion.Inventario
 
         }
 
+<<<<<<< HEAD
         private void btnInsertar_Click(object sender, EventArgs e)
         {
             if (ValidateProduct.Set_ValidateProduct(txtNombreproducto.Text, txtPrecio.Text, txtCantidad.Text))
@@ -41,6 +42,11 @@ namespace Bing_Bong_Factory.Presentacion.Inventario
                 //de lo contrario si informacion del producto no es del tipo correcto
                 
             }
+=======
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+>>>>>>> 4c166ae9d343a72b502021c98a08ba260c02e90e
         }
     }
 }

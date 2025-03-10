@@ -124,6 +124,8 @@ namespace Bing_Bong_Factory.Datos
             }
         }
 
+
+        //Metodo para insertar un producto
         public bool InserProduct(List<string> ls)
         {
             using (SqlConnection con = new SqlConnection(connectionString))
@@ -135,6 +137,7 @@ namespace Bing_Bong_Factory.Datos
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
 
+                        //Agregar parametros al llamado del procedimiento
                         cmd.Parameters.AddWithValue("@Product_name", ls[0]);
                         cmd.Parameters.AddWithValue("@Unit_price", ls[1]);
                         cmd.Parameters.AddWithValue("@Unit_in_stock", ls[2]);

@@ -71,21 +71,23 @@ namespace Bing_Bong_Factory
 
         private void Login_btn_clicl(object sender, EventArgs e)
         {
-            if (db.LoginExict(bunifuTextBox1.Text, bunifuTextBox2.Text))
-            {
+           // if (db.LoginExict(bunifuTextBox1.Text, bunifuTextBox2.Text))
+            //{
                 Dashboard_form dashboard_Form = new Dashboard_form();
                 dashboard_Form.Show();
                 this.Hide();
-            }
-            else
-            {
-                MessageBox.Show("Usuario o contraseña incorrectos");
-            }
-        }         
+          //}
+           // else
+            //{
+              // MessageBox.Show("Usuario o contraseña incorrectos");
+            //}
+        }
 
-        private void panel10_Paint(object sender, PaintEventArgs e)
+        private void Side_Panel_Paint(object sender, PaintEventArgs e)
         {
 
         }
+
+       
     }
 }

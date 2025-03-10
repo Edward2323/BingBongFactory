@@ -206,6 +206,7 @@ C:\Users\Jorge Rayber Acosta\Source\Repos\BingBongFactory\obj\Debug\Bing-Bong-Fa
 C:\Users\Jorge Rayber Acosta\Source\Repos\BingBongFactory\obj\Debug\Bing-Bon.D18C5A88.Up2Date
 C:\Users\Jorge Rayber Acosta\Source\Repos\BingBongFactory\obj\Debug\Bing-Bong-Factory.exe
 C:\Users\Jorge Rayber Acosta\Source\Repos\BingBongFactory\obj\Debug\Bing-Bong-Factory.pdb
+<<<<<<< HEAD
 C:\Users\Dell\Desktop\Bing Bong Factory\BingBongFactory\bin\Debug\Bing-Bong-Factory.exe.config
 C:\Users\Dell\Desktop\Bing Bong Factory\BingBongFactory\bin\Debug\Bing-Bong-Factory.exe
 C:\Users\Dell\Desktop\Bing Bong Factory\BingBongFactory\bin\Debug\Bing-Bong-Factory.pdb
@@ -248,3 +249,56 @@ C:\Users\Dell\Desktop\Bing Bong Factory\BingBongFactory\obj\Debug\Bing-Bong-Fact
 C:\Users\Dell\Desktop\Bing Bong Factory\BingBongFactory\obj\Debug\Bing-Bon.D18C5A88.Up2Date
 C:\Users\Dell\Desktop\Bing Bong Factory\BingBongFactory\obj\Debug\Bing-Bong-Factory.exe
 C:\Users\Dell\Desktop\Bing Bong Factory\BingBongFactory\obj\Debug\Bing-Bong-Factory.pdb
+=======
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\Bing-Bong-Factory.exe.config
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\Bing-Bong-Factory.exe
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\Bing-Bong-Factory.pdb
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\Bunifu.Licensing.dll
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\Bunifu.UI.WinForms.dll
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\Newtonsoft.Json.dll
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\RestSharp.dll
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\System.Buffers.dll
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\System.CodeDom.dll
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\System.Memory.dll
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\System.Text.Json.dll
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\System.ValueTuple.dll
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\Bunifu.UI.WinForms.xml
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\Newtonsoft.Json.xml
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\RestSharp.xml
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\System.Buffers.xml
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\System.CodeDom.xml
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\System.Memory.xml
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\System.Text.Json.xml
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\System.ValueTuple.xml
+C:\Users\julio\Source\Repos\BingBongFactory\obj\Debug\Bing-Bong-Factory.csproj.AssemblyReference.cache
+C:\Users\julio\Source\Repos\BingBongFactory\obj\Debug\Bing_Bong_Factory.Dashboard_form.resources
+C:\Users\julio\Source\Repos\BingBongFactory\obj\Debug\Bing_Bong_Factory.Presentacion.Inventario.frmInsertar.resources
+C:\Users\julio\Source\Repos\BingBongFactory\obj\Debug\Bing_Bong_Factory.Login_form.resources
+C:\Users\julio\Source\Repos\BingBongFactory\obj\Debug\Bing_Bong_Factory.Properties.Resources.resources
+C:\Users\julio\Source\Repos\BingBongFactory\obj\Debug\Bing_Bong_Factory.Sign_in.resources
+C:\Users\julio\Source\Repos\BingBongFactory\obj\Debug\Bing-Bong-Factory.csproj.GenerateResource.cache
+C:\Users\julio\Source\Repos\BingBongFactory\obj\Debug\Bing-Bong-Factory.csproj.CoreCompileInputs.cache
+C:\Users\julio\Source\Repos\BingBongFactory\obj\Debug\Bing-Bon.D18C5A88.Up2Date
+C:\Users\julio\Source\Repos\BingBongFactory\obj\Debug\Bing-Bong-Factory.exe
+C:\Users\julio\Source\Repos\BingBongFactory\obj\Debug\Bing-Bong-Factory.pdb
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\Bunifu.Charts.WinForms.dll
+C:\Users\julio\Source\Repos\BingBongFactory\bin\Debug\Bunifu.Charts.WinForms.xml
+C:\Users\julio\Source\Repos\BingBongFactory\obj\Debug\Bing-Bong-Factory.exe.licenses
+C:\Users\julio\source\repos\BingBongFactory\obj\Debug\Bing_Bong_Factory.Presentacion.Inventario.FrmEditar.resources
+C:\Users\julio\source\repos\BingBongFactory\obj\Debug\Bing_Bong_Factory.Presentacion.Ventas.FrmBuscarP.resources
+C:\Users\julio\source\repos\BingBongFactory\obj\Debug\Bing_Bong_Factory.Presentacion.Ventas.NC_frm.resources
+C:\Users\julio\source\repos\BingBongFactory\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\julio\source\repos\BingBongFactory\bin\Debug\itextsharp.dll
+C:\Users\julio\source\repos\BingBongFactory\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\julio\source\repos\BingBongFactory\bin\Debug\itextsharp.xml
+>>>>>>> 4c166ae9d343a72b502021c98a08ba260c02e90e
