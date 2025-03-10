@@ -17,6 +17,28 @@ namespace Bing_Bong_Factory.Datos
         string connectionString = $"Server={serverName};Database=BBDB;Integrated Security=True;";
 
 
+        public void DeleteProduct(int productID)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    con.Open();
+                    using (SqlCommand cmd = new SqlCommand("DeleteProducts", con))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@Product_ID", productID);
+                        cmd.ExecuteNonQuery();
+                    }
+                    con.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: " + ex.Message);
+                }
+            }
+        }
+
         public List<DataGridViewRow> GetProduct()
         {
             using (SqlConnection con = new SqlConnection(connectionString))
@@ -25,7 +47,7 @@ namespace Bing_Bong_Factory.Datos
                 try
                 {
                     con.Open();
-                    string qry = "SELECT Product_name, Unit_price, Unit_in_stock FROM Products;";
+                    string qry = "SELECT * FROM Products;";
                     using (SqlCommand cmd = new SqlCommand(qry, con))
                     {
                         using (SqlDataReader rd = cmd.ExecuteReader())

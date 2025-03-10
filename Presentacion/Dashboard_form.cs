@@ -148,7 +148,19 @@ namespace Bing_Bong_Factory
 
         private void DltProduct_btn_Click(object sender, EventArgs e)
         {
+            if (dgvProductos.SelectedRows.Count > 0) // Verifica si hay una fila seleccionada
+            {
+                
+                int productID = Convert.ToInt32(dgvProductos.SelectedRows[0].Cells[0].Value); //tomar el valor de la primera columna seleccionada
 
+                db.DeleteProduct(productID);
+
+                dgvProductos.Rows.RemoveAt(dgvProductos.SelectedRows[0].Index); // Elimina la fila del DataGridView
+            }
+            else
+            {
+                MessageBox.Show("Seleccione un producto para eliminar.");
+            }
         }
 
         private void btnInsertar_Click(object sender, EventArgs e)

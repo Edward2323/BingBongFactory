@@ -1,1 +1,48 @@
+Archivos de configuración de Visual Studio
 .vs/
+*.user
+*.suo
+*.psess
+
+Archivos de compilación
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+
+Configuración del proyecto (opcional, si se genera automáticamente)
+*.csproj.user
+*.csproj.vspscc
+*.vbproj.user
+*.vbproj.vspscc
+
+Archivos de paquetes NuGet
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+
+Archivos de depuración
+TestResults/
+*.log
+*.tlog
+
+Publicaciones y paquetes
+publish/
+*.publish.xml
+
+Archivos de resguardo de configuración
+app.config
+web.config
+appsettings.json
+appsettings.Development.json
+
+Archivos generados por Resharper o Rider
+.idea/
+*.DotSettings.user
+
+Archivos de configuración local de Windows
+Thumbs.db
+Desktop.ini
