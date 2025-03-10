@@ -83,7 +83,7 @@ namespace Bing_Bong_Factory.Datos
                 return false;
             }
         }
-        public bool UserInsert(string User_rol,string User_firstname,string User_lastname,string User_email, string password)
+        public bool UserInsert(string User_rol, string User_firstname, string User_lastname, string User_email, string password)
         {
             using (SqlConnection con = new SqlConnection(connectionString))
             {
@@ -123,5 +123,48 @@ namespace Bing_Bong_Factory.Datos
                 return false;
             }
         }
+        
+            //Metodo para insertar un producto
+            public bool InserProduct(List<string> ls)
+            {
+                using (SqlConnection con = new SqlConnection(connectionString))
+                {
+                    try
+                    {
+                        con.Open();
+                        using (SqlCommand cmd = new SqlCommand("AddProduct", con))
+                        {
+                            cmd.CommandType = CommandType.StoredProcedure;
+
+                            //Agregar parametros al llamado del procedimiento
+                            cmd.Parameters.AddWithValue("@Product_name", ls[0]);
+                            cmd.Parameters.AddWithValue("@Unit_price", ls[1]);
+                            cmd.Parameters.AddWithValue("@Unit_in_stock", ls[2]);
+
+                            cmd.ExecuteNonQuery();
+
+                            using (SqlCommand checkError = new SqlCommand("SELECT @@ERROR", con))
+                            {
+                                int errorCode = (int)checkError.ExecuteScalar();
+                                if (errorCode == 0)
+                                {
+                                    return true;
+                                }
+                                else
+                                {
+                                    return false;
+                                }
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Error: " + ex.Message);
+                        return false;
+                    }
+
+
+                }
+            } 
+        }
     }
-}

@@ -145,6 +145,7 @@
   <ItemGroup>
     <Compile Include="Datos\CapaEnditades.cs" />
     <Compile Include="Datos\DBconnection.cs" />
+    <Compile Include="Negocio\ValidateProduct.cs" />
     <Compile Include="Presentacion\Dashboard_form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -237,7 +238,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="IMG\" />
-    <Folder Include="Negocio\" />
     <Folder Include="Persistencia\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
