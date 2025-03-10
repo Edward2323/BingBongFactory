@@ -1,10 +1,18 @@
+<<<<<<< HEAD
 Archivos de configuración de Visual Studio
+=======
+# Archivos de configuración de Visual Studio
+>>>>>>> fccd908435d5083ff4ebaa729ad21c66af23cbf9
 .vs/
 *.user
 *.suo
 *.psess
 
+<<<<<<< HEAD
 Archivos de compilación
+=======
+# Archivos de compilación
+>>>>>>> fccd908435d5083ff4ebaa729ad21c66af23cbf9
 bin/
 obj/
 *.exe
@@ -12,33 +20,54 @@ obj/
 *.pdb
 *.cache
 
+<<<<<<< HEAD
 Configuración del proyecto (opcional, si se genera automáticamente)
+=======
+# Configuración del proyecto (opcional, si se genera automáticamente)
+>>>>>>> fccd908435d5083ff4ebaa729ad21c66af23cbf9
 *.csproj.user
 *.csproj.vspscc
 *.vbproj.user
 *.vbproj.vspscc
 
+<<<<<<< HEAD
 Archivos de paquetes NuGet
+=======
+# Archivos de paquetes NuGet
+>>>>>>> fccd908435d5083ff4ebaa729ad21c66af23cbf9
 packages/
 *.nupkg
 project.lock.json
 project.assets.json
 
+<<<<<<< HEAD
 Archivos de depuración
+=======
+# Archivos de depuración
+>>>>>>> fccd908435d5083ff4ebaa729ad21c66af23cbf9
 TestResults/
 *.log
 *.tlog
 
+<<<<<<< HEAD
 Publicaciones y paquetes
 publish/
 *.publish.xml
 
 Archivos de resguardo de configuración
+=======
+# Publicaciones y paquetes
+publish/
+*.publish.xml
+
+# Archivos de resguardo de configuración
+>>>>>>> fccd908435d5083ff4ebaa729ad21c66af23cbf9
 app.config
 web.config
 appsettings.json
 appsettings.Development.json
 
+<<<<<<< HEAD
 Archivos generados por Resharper o Rider
 .idea/
 *.DotSettings.user
@@ -46,3 +75,12 @@ Archivos generados por Resharper o Rider
 Archivos de configuración local de Windows
 Thumbs.db
 Desktop.ini
+=======
+# Archivos generados por Resharper o Rider
+.idea/
+*.DotSettings.user
+
+# Archivos de configuración local de Windows
+Thumbs.db
+Desktop.ini
+>>>>>>> fccd908435d5083ff4ebaa729ad21c66af23cbf9
