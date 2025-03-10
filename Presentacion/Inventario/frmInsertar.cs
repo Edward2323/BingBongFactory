@@ -21,5 +21,10 @@ namespace Bing_Bong_Factory.Presentacion.Inventario
         {
 
         }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

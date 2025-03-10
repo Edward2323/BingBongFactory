@@ -1,3 +1,6 @@
+CREATE DATABASE BBDB
+USE BBDB;
+
 -- Tabla UserLogin
 CREATE TABLE UserLogin (
     User_id INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
@@ -9,7 +12,7 @@ CREATE TABLE UserLogin (
 );
 GO
 
-ALTER FROM User
+
 
 -- Tabla Orders
 CREATE TABLE Orders (

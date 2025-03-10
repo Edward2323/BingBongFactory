@@ -34,6 +34,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>packages\BouncyCastle.Cryptography.2.4.0\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.Charts.WinForms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>packages\Bunifu.Charts.WinForms.2.0.0\lib\net40\Bunifu.Charts.WinForms.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu.Licensing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b, processorArchitecture=MSIL">
       <HintPath>packages\Bunifu.Licensing.6.0.4\lib\net48\Bunifu.Licensing.dll</HintPath>
     </Reference>
@@ -45,6 +51,9 @@
     </Reference>
     <Reference Include="Bunifu_UI_v1.52">
       <HintPath>..\..\..\..\Downloads\Bunifu_UI_v1.52\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.4, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\iTextSharp.5.5.13.4\lib\net461\itextsharp.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.7.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
@@ -142,23 +151,35 @@
     <Compile Include="Presentacion\Dashboard_form.Designer.cs">
       <DependentUpon>Dashboard_form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\Inventario\FrmEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Inventario\FrmEditar.Designer.cs">
+      <DependentUpon>FrmEditar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\Inventario\frmInsertar.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Presentacion\Inventario\frmInsertar.Designer.cs">
       <DependentUpon>frmInsertar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentacion\Inventario\frmInventario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Presentacion\Inventario\frmInventario.Designer.cs">
-      <DependentUpon>frmInventario.cs</DependentUpon>
-    </Compile>
     <Compile Include="Presentacion\Login_form.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Presentacion\Login_form.Designer.cs">
       <DependentUpon>Login_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ventas\NC_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ventas\NC_frm.Designer.cs">
+      <DependentUpon>NC_frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ventas\FrmBuscarP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ventas\FrmBuscarP.Designer.cs">
+      <DependentUpon>FrmBuscarP.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -171,15 +192,22 @@
     <EmbeddedResource Include="Presentacion\Dashboard_form.resx">
       <DependentUpon>Dashboard_form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Inventario\FrmEditar.resx">
+      <DependentUpon>FrmEditar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Inventario\frmInsertar.resx">
       <DependentUpon>frmInsertar.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Presentacion\Inventario\frmInventario.resx">
-      <DependentUpon>frmInventario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Login_form.resx">
       <DependentUpon>Login_form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Ventas\NC_frm.resx">
+      <DependentUpon>NC_frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Ventas\FrmBuscarP.resx">
+      <DependentUpon>FrmBuscarP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
