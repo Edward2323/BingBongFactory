@@ -25,7 +25,7 @@ namespace Bing_Bong_Factory.Datos
                 try
                 {
                     con.Open();
-                    string qry = "SELECT Product_name, Unit_price, Unit_in_stock FROM Products;";
+                    string qry = "SELECT * FROM Products;";
                     using (SqlCommand cmd = new SqlCommand(qry, con))
                     {
                         using (SqlDataReader rd = cmd.ExecuteReader())
@@ -121,6 +121,46 @@ namespace Bing_Bong_Factory.Datos
                     MessageBox.Show("Error: " + ex.Message);
                 }
                 return false;
+            }
+        }
+
+        public bool InserProduct(List<string> ls)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    con.Open();
+                    using (SqlCommand cmd = new SqlCommand("AddProduct", con))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+
+                        cmd.Parameters.AddWithValue("@Product_name", ls[0]);
+                        cmd.Parameters.AddWithValue("@Unit_price", ls[1]);
+                        cmd.Parameters.AddWithValue("@Unit_in_stock", ls[2]);
+
+                        cmd.ExecuteNonQuery();
+
+                        using (SqlCommand checkError = new SqlCommand("SELECT @@ERROR", con))
+                        {
+                            int errorCode = (int)checkError.ExecuteScalar();
+                            if (errorCode == 0)
+                            {
+                                return true;
+                            }
+                            else
+                            {
+                                return false;
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: " + ex.Message);
+                    return false;
+                }
+
             }
         }
     }

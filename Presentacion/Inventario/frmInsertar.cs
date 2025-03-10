@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bing_Bong_Factory.Datos;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace Bing_Bong_Factory.Presentacion.Inventario
 {
     public partial class frmInsertar : Form
     {
+        DBconnection db = new DBconnection();
         public frmInsertar()
         {
             InitializeComponent();
@@ -20,6 +22,25 @@ namespace Bing_Bong_Factory.Presentacion.Inventario
         private void bunifuLabel3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnInsertar_Click(object sender, EventArgs e)
+        {
+            if (ValidateProduct.Set_ValidateProduct(txtNombreproducto.Text, txtPrecio.Text, txtCantidad.Text))
+            {
+                //Si la informacion del producto es del tipo correcto
+                if (db.InserProduct(ValidateProduct.GetProduct()))
+                {
+                    //Si fue correcta la inserccion
+                    MessageBox.Show("Inserrcion Correcta");
+                }
+
+            }
+            else
+            {
+                //de lo contrario si informacion del producto no es del tipo correcto
+                
+            }
         }
     }
 }

@@ -15,7 +15,6 @@ namespace Bing_Bong_Factory.Presentacion
     public partial class frmInventario : Form
     {
         private DBconnection db = new DBconnection();
-
         public frmInventario()
         {
             InitializeComponent();

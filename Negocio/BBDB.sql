@@ -9,7 +9,6 @@ CREATE TABLE UserLogin (
 );
 GO
 
-ALTER FROM User
 
 -- Tabla Orders
 CREATE TABLE Orders (

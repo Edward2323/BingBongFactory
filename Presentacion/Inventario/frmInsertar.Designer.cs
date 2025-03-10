@@ -71,7 +71,7 @@
             this.btnInsertar.ButtonTextMarginLeft = 0;
             this.btnInsertar.ColorContrastOnClick = 45;
             this.btnInsertar.ColorContrastOnHover = 45;
-            this.btnInsertar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInsertar.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             borderEdges1.BottomLeft = true;
             borderEdges1.BottomRight = true;
             borderEdges1.TopLeft = true;
@@ -85,12 +85,12 @@
             this.btnInsertar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInsertar.ForeColor = System.Drawing.Color.White;
             this.btnInsertar.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInsertar.IconLeftCursor = System.Windows.Forms.Cursors.Default;
+            this.btnInsertar.IconLeftCursor = System.Windows.Forms.Cursors.WaitCursor;
             this.btnInsertar.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
             this.btnInsertar.IconMarginLeft = 11;
             this.btnInsertar.IconPadding = 10;
             this.btnInsertar.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnInsertar.IconRightCursor = System.Windows.Forms.Cursors.Default;
+            this.btnInsertar.IconRightCursor = System.Windows.Forms.Cursors.WaitCursor;
             this.btnInsertar.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
             this.btnInsertar.IconSize = 25;
             this.btnInsertar.IdleBorderColor = System.Drawing.Color.Red;
@@ -142,6 +142,8 @@
             this.btnInsertar.TextMarginLeft = 0;
             this.btnInsertar.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnInsertar.UseDefaultRadiusAndThickness = true;
+            this.btnInsertar.UseWaitCursor = true;
+            this.btnInsertar.Click += new System.EventHandler(this.btnInsertar_Click);
             // 
             // btnCancelar
             // 
@@ -161,7 +163,7 @@
             this.btnCancelar.ButtonTextMarginLeft = 0;
             this.btnCancelar.ColorContrastOnClick = 45;
             this.btnCancelar.ColorContrastOnHover = 45;
-            this.btnCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCancelar.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             borderEdges2.BottomLeft = true;
             borderEdges2.BottomRight = true;
             borderEdges2.TopLeft = true;
@@ -175,12 +177,12 @@
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelar.ForeColor = System.Drawing.Color.White;
             this.btnCancelar.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancelar.IconLeftCursor = System.Windows.Forms.Cursors.Default;
+            this.btnCancelar.IconLeftCursor = System.Windows.Forms.Cursors.WaitCursor;
             this.btnCancelar.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
             this.btnCancelar.IconMarginLeft = 11;
             this.btnCancelar.IconPadding = 10;
             this.btnCancelar.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCancelar.IconRightCursor = System.Windows.Forms.Cursors.Default;
+            this.btnCancelar.IconRightCursor = System.Windows.Forms.Cursors.WaitCursor;
             this.btnCancelar.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
             this.btnCancelar.IconSize = 25;
             this.btnCancelar.IdleBorderColor = System.Drawing.Color.Red;
@@ -232,6 +234,7 @@
             this.btnCancelar.TextMarginLeft = 0;
             this.btnCancelar.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnCancelar.UseDefaultRadiusAndThickness = true;
+            this.btnCancelar.UseWaitCursor = true;
             // 
             // txtNombreproducto
             // 
@@ -251,16 +254,16 @@
             this.txtNombreproducto.BorderThickness = 1;
             this.txtNombreproducto.CharacterCase = Bunifu.UI.WinForms.BunifuTextBox.CharacterCases.Normal;
             this.txtNombreproducto.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txtNombreproducto.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtNombreproducto.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.txtNombreproducto.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
             this.txtNombreproducto.DefaultText = "";
             this.txtNombreproducto.FillColor = System.Drawing.Color.White;
             this.txtNombreproducto.HideSelection = true;
             this.txtNombreproducto.IconLeft = null;
-            this.txtNombreproducto.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtNombreproducto.IconLeftCursor = System.Windows.Forms.Cursors.WaitCursor;
             this.txtNombreproducto.IconPadding = 10;
             this.txtNombreproducto.IconRight = null;
-            this.txtNombreproducto.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtNombreproducto.IconRightCursor = System.Windows.Forms.Cursors.WaitCursor;
             this.txtNombreproducto.Lines = new string[0];
             this.txtNombreproducto.Location = new System.Drawing.Point(20, 63);
             this.txtNombreproducto.Margin = new System.Windows.Forms.Padding(10);
@@ -308,6 +311,7 @@
             this.txtNombreproducto.TextMarginTop = 1;
             this.txtNombreproducto.TextPlaceholder = "Enter text";
             this.txtNombreproducto.UseSystemPasswordChar = false;
+            this.txtNombreproducto.UseWaitCursor = true;
             this.txtNombreproducto.WordWrap = true;
             // 
             // txtPrecio
@@ -328,16 +332,16 @@
             this.txtPrecio.BorderThickness = 1;
             this.txtPrecio.CharacterCase = Bunifu.UI.WinForms.BunifuTextBox.CharacterCases.Normal;
             this.txtPrecio.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txtPrecio.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtPrecio.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.txtPrecio.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
             this.txtPrecio.DefaultText = "";
             this.txtPrecio.FillColor = System.Drawing.Color.White;
             this.txtPrecio.HideSelection = true;
             this.txtPrecio.IconLeft = null;
-            this.txtPrecio.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtPrecio.IconLeftCursor = System.Windows.Forms.Cursors.WaitCursor;
             this.txtPrecio.IconPadding = 10;
             this.txtPrecio.IconRight = null;
-            this.txtPrecio.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtPrecio.IconRightCursor = System.Windows.Forms.Cursors.WaitCursor;
             this.txtPrecio.Lines = new string[0];
             this.txtPrecio.Location = new System.Drawing.Point(466, 63);
             this.txtPrecio.Margin = new System.Windows.Forms.Padding(10);
@@ -385,6 +389,7 @@
             this.txtPrecio.TextMarginTop = 1;
             this.txtPrecio.TextPlaceholder = "Enter text";
             this.txtPrecio.UseSystemPasswordChar = false;
+            this.txtPrecio.UseWaitCursor = true;
             this.txtPrecio.WordWrap = true;
             // 
             // txtCantidad
@@ -405,16 +410,16 @@
             this.txtCantidad.BorderThickness = 1;
             this.txtCantidad.CharacterCase = Bunifu.UI.WinForms.BunifuTextBox.CharacterCases.Normal;
             this.txtCantidad.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txtCantidad.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtCantidad.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.txtCantidad.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
             this.txtCantidad.DefaultText = "";
             this.txtCantidad.FillColor = System.Drawing.Color.White;
             this.txtCantidad.HideSelection = true;
             this.txtCantidad.IconLeft = null;
-            this.txtCantidad.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtCantidad.IconLeftCursor = System.Windows.Forms.Cursors.WaitCursor;
             this.txtCantidad.IconPadding = 10;
             this.txtCantidad.IconRight = null;
-            this.txtCantidad.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtCantidad.IconRightCursor = System.Windows.Forms.Cursors.WaitCursor;
             this.txtCantidad.Lines = new string[0];
             this.txtCantidad.Location = new System.Drawing.Point(603, 63);
             this.txtCantidad.Margin = new System.Windows.Forms.Padding(10);
@@ -462,12 +467,14 @@
             this.txtCantidad.TextMarginTop = 1;
             this.txtCantidad.TextPlaceholder = "Enter text";
             this.txtCantidad.UseSystemPasswordChar = false;
+            this.txtCantidad.UseWaitCursor = true;
             this.txtCantidad.WordWrap = true;
             // 
             // lbNombreproducto
             // 
             this.lbNombreproducto.AllowParentOverrides = false;
             this.lbNombreproducto.AutoEllipsis = false;
+            this.lbNombreproducto.Cursor = System.Windows.Forms.Cursors.Default;
             this.lbNombreproducto.CursorType = System.Windows.Forms.Cursors.Default;
             this.lbNombreproducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbNombreproducto.Location = new System.Drawing.Point(119, 25);
@@ -478,6 +485,7 @@
             this.lbNombreproducto.Text = "Nombre del producto";
             this.lbNombreproducto.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.lbNombreproducto.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.lbNombreproducto.UseWaitCursor = true;
             // 
             // lbPrecio
             // 
@@ -493,6 +501,7 @@
             this.lbPrecio.Text = "Precio";
             this.lbPrecio.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.lbPrecio.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.lbPrecio.UseWaitCursor = true;
             // 
             // lbCantidad
             // 
@@ -508,6 +517,7 @@
             this.lbCantidad.Text = "Cantidad";
             this.lbCantidad.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.lbCantidad.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.lbCantidad.UseWaitCursor = true;
             this.lbCantidad.Click += new System.EventHandler(this.bunifuLabel3_Click);
             // 
             // frmInsertar

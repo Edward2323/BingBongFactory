@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Bing_Bong_Factory.Presentacion.Inventario;
 
 namespace Bing_Bong_Factory
 {
@@ -17,7 +18,7 @@ namespace Bing_Bong_Factory
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login_form());
+            Application.Run(new frmInsertar());
         }
     }
 }

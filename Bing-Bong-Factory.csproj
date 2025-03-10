@@ -168,6 +168,7 @@
     <Compile Include="Presentacion\Sign_in.Designer.cs">
       <DependentUpon>Sign_in.cs</DependentUpon>
     </Compile>
+    <Compile Include="ValidateProduct.cs" />
     <EmbeddedResource Include="Presentacion\Dashboard_form.resx">
       <DependentUpon>Dashboard_form.cs</DependentUpon>
     </EmbeddedResource>
