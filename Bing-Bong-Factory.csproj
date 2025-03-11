@@ -145,6 +145,7 @@
   <ItemGroup>
     <Compile Include="Datos\CapaEnditades.cs" />
     <Compile Include="Datos\DBconnection.cs" />
+    <Compile Include="Negocio\SigninValidation.cs" />
     <Compile Include="Negocio\ValidateProduct.cs" />
     <Compile Include="Presentacion\Dashboard_form.cs">
       <SubType>Form</SubType>
@@ -170,6 +171,12 @@
     <Compile Include="Presentacion\Login_form.Designer.cs">
       <DependentUpon>Login_form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\Registro\SignEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Registro\SignEdit.Designer.cs">
+      <DependentUpon>SignEdit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\Ventas\NC_frm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -184,11 +191,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Presentacion\Sign_in.cs">
+    <Compile Include="Presentacion\Registro\Sign_inInsert.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentacion\Sign_in.Designer.cs">
-      <DependentUpon>Sign_in.cs</DependentUpon>
+    <Compile Include="Presentacion\Registro\Sign_inInsert.Designer.cs">
+      <DependentUpon>Sign_inInsert.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Presentacion\Dashboard_form.resx">
       <DependentUpon>Dashboard_form.cs</DependentUpon>
@@ -201,6 +208,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Login_form.resx">
       <DependentUpon>Login_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Registro\SignEdit.resx">
+      <DependentUpon>SignEdit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Ventas\NC_frm.resx">
       <DependentUpon>NC_frm.cs</DependentUpon>
@@ -219,8 +229,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Presentacion\Sign_in.resx">
-      <DependentUpon>Sign_in.cs</DependentUpon>
+    <EmbeddedResource Include="Presentacion\Registro\Sign_inInsert.resx">
+      <DependentUpon>Sign_inInsert.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
