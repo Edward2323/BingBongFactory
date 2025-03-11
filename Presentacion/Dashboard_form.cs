@@ -293,7 +293,7 @@ namespace Bing_Bong_Factory
             if (EmpleadosDataGridView.SelectedRows.Count > 0) // Verifica si hay una fila seleccionada
             {
                 List<DataGridViewRow> DataUsers = db.GetUserLogin();
-                DataGridViewRow selectedRow = DataUsers[0];             
+                DataGridViewRow selectedRow = DataUsers[EmpleadosDataGridView.SelectedRows[0].Index];             
                 SignEdit sign = new SignEdit(selectedRow);
                 sign.Show();
             }

@@ -44,7 +44,7 @@ CREATE TABLE Order_Details (
 GO
 
 -- Procedimiento para insertar un nuevo usuario
-CREATE PROCEDURE AddUserLogin
+ALTER PROCEDURE AddUserLogin
     @User_rol VARCHAR(10),
     @User_firstname VARCHAR(50),
     @User_lastname VARCHAR(50),
@@ -61,7 +61,7 @@ END;
 GO
 
 -- Procedimiento para consultar un usuario por su gmail y contraseña
-CREATE PROCEDURE GetUserLogin
+ALTER PROCEDURE GetUserLogin
     @User_email VARCHAR(50),
     @User_password VARCHAR(50)
 AS
@@ -71,7 +71,7 @@ END;
 GO
 
 -- Procedimiento para obtener el rol de un usuario
-CREATE PROCEDURE Login
+ALTER PROCEDURE Login
     @User_email VARCHAR(50),
     @User_password VARCHAR(50)
 AS
@@ -81,9 +81,9 @@ END;
 GO
 
 -- Procedimiento para actualizar un usuario
-CREATE PROCEDURE UpdateUserLogin
+ALTER PROCEDURE UpdateUserLogin
     @User_id INT,
-    @User_rol VARCHAR(5),
+    @User_rol VARCHAR(10),
     @User_firstname VARCHAR(50),
     @User_lastname VARCHAR(50),
     @User_email VARCHAR(50),
@@ -101,7 +101,7 @@ END;
 GO
 
 -- Procedimiento para eliminar un usuario por su ID
-CREATE PROCEDURE DeleteUserLogin
+ALTER PROCEDURE DeleteUserLogin
     @User_id INT
 AS
 BEGIN
@@ -110,7 +110,7 @@ END;
 GO
 
 -- Procedimiento para insertar un nuevo producto
-CREATE PROCEDURE AddProduct
+ALTER PROCEDURE AddProduct
     @Product_name VARCHAR(50),
     @Unit_price MONEY,
     @Unit_in_stock SMALLINT
@@ -125,7 +125,7 @@ END;
 GO
 
 -- Procedimiento para actualizar un producto
-CREATE PROCEDURE UpdateProduct
+ALTER PROCEDURE UpdateProduct
 	@Product_id INT,
     @Product_name VARCHAR(50),
     @Unit_price MONEY,
@@ -141,7 +141,7 @@ END;
 GO
 
 -- Procedimiento para eliminar un producto por su ID
-CREATE PROCEDURE DeleteProducts
+ALTER PROCEDURE DeleteProducts
     @Product_id INT
 AS
 BEGIN
@@ -198,3 +198,29 @@ SELECT * FROM UserLogin;
 SELECT * FROM Products;
 SELECT * FROM Orders;
 SELECT * FROM Order_Details;
+
+--  Aqui cree  el procedimiento almacenado, nombre,ID del producto,`recio unitario, cantidad de producto
+CREATE PROCEDURE AddOrderWithDetails
+    @Employee_name VARCHAR(50), 
+    @Product_id INT, 
+    @Unit_price MONEY, 
+    @Quantity SMALLINT 
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    DECLARE @Order_id INT; -- Esta es la variable para almacenar el ID de la orden
+
+    --  Aqui inserte lo que es  un nuevo pedido en la tabla Orders
+    INSERT INTO Orders (Order_date, Employee_name)
+    VALUES (GETDATE(), @Employee_name);
+
+    --  Esto aqui es para Obtener el ID de la orden recién insertada
+    SET @Order_id = SCOPE_IDENTITY();
+
+    -- Estoa aqui es para Insertar detalles del pedido en Order_Details
+    INSERT INTO Order_Details (Order_id, Product_id, Unit_price, Quantity)
+    VALUES (@Order_id, @Product_id, @Unit_price, @Quantity);
+
+END;
+GO
