@@ -28,6 +28,18 @@ namespace Bing_Bong_Factory
             UserRol = userRol;
             InitializeComponent();
             loadData();
+
+            if (userRol == "Empleado")
+            {
+                Btn_historial.Enabled = false;
+                Btn_historial.Visible = false;
+                Empleados_btn.Enabled = false;
+                Empleados_btn.Visible = false;
+                Inv_btn_pnl.Enabled = false;
+                Inv_btn_pnl.Visible = false;
+                Emp_btn_pnl.Enabled = false;
+                Emp_btn_pnl.Visible = false;
+            }
         }
 
         public void loadData()
@@ -47,6 +59,9 @@ namespace Bing_Bong_Factory
 
             foreach (DataGridViewRow row in DataUsers)
             {
+                string password = row.Cells[5].Value.ToString();
+                row.Cells[5].Value = new string('●', password.Length);
+
                 EmpleadosDataGridView.Rows.Add(row);
             }
 
@@ -197,8 +212,6 @@ namespace Bing_Bong_Factory
                                                     dgvProductos.SelectedRows[0].Cells[2].Value.ToString(), dgvProductos.SelectedRows[0].Cells[3].Value.ToString());
                 frmEditar.Show();
 
-
-
             }
             else
             {
@@ -279,7 +292,8 @@ namespace Bing_Bong_Factory
         {
             if (EmpleadosDataGridView.SelectedRows.Count > 0) // Verifica si hay una fila seleccionada
             {
-                DataGridViewRow selectedRow = EmpleadosDataGridView.SelectedRows[0];             
+                List<DataGridViewRow> DataUsers = db.GetUserLogin();
+                DataGridViewRow selectedRow = DataUsers[0];             
                 SignEdit sign = new SignEdit(selectedRow);
                 sign.Show();
             }

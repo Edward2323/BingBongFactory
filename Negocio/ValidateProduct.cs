@@ -24,6 +24,8 @@ namespace Bing_Bong_Factory.Negocio
         {
             try
             {
+                if (nombre == "")
+                    return false;
                 ValidateProduct.nombre = nombre;
                 ValidateProduct.precio = Convert.ToDouble(precio);
                 ValidateProduct.cantidad = Convert.ToInt32(cantidad);

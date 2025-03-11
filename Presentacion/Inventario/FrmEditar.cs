@@ -17,7 +17,6 @@ namespace Bing_Bong_Factory.Presentacion.Inventario
     
     public partial class FrmEditar : Form
     {
-        Dashboard_form frm = new Dashboard_form();
         DBconnection db = new DBconnection();
         string id;
         public FrmEditar(string productoid, string nombre, string precio, string cantidad)
@@ -43,9 +42,8 @@ namespace Bing_Bong_Factory.Presentacion.Inventario
                 if (db.UpdateProduct(id, txtNombreproductoE.Text, txtPrecioE.Text, txtCantidadE.Text)) //Introduce el producto a la base de datos
                 {
                     //Si se inserto el porducto correctamente
-                    MessageBox.Show("Se actualizo el producto ocn exito");
-                    Cleartxt();
-                    frm.loadData();
+                    MessageBox.Show("Se actualizo el producto con exito");
+                    this.Close();
                 }
                 else
                 {
@@ -57,13 +55,6 @@ namespace Bing_Bong_Factory.Presentacion.Inventario
             {
                 MessageBox.Show("Inserte los valores correctos");
             }
-        }
-
-        private void Cleartxt()
-        {
-            txtNombreproductoE.Text = "";
-            txtPrecioE.Text = "";
-            txtCantidadE.Text = "";
         }
     }
 }

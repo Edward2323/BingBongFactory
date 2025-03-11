@@ -48,6 +48,7 @@ namespace Bing_Bong_Factory.Presentacion.Registro
         private void bunifuButton21_Click(object sender, EventArgs e)
         {
             Signin.UserUpdate(Datauser.Cells[0].Value.ToString(), bunifuDropdown1.Text, bunifuTextBox1.Text, bunifuTextBox2.Text, bunifuTextBox3.Text, bunifuTextBox4.Text, bunifuTextBox5.Text);
+            this.Close();
         }
 
         private void panel8_Click(object sender, EventArgs e)
