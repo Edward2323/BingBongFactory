@@ -213,6 +213,7 @@ namespace Bing_Bong_Factory.Datos
                             }
                         }
                     }
+<<<<<<< HEAD
                 }
                 catch (Exception ex)
                 {
@@ -222,12 +223,25 @@ namespace Bing_Bong_Factory.Datos
             }
         }
         public void DeleteUserLogin(int UserID)
+=======
+                    catch (Exception ex)
+                    {
+                        return false;
+                    }
+
+
+                }
+            }
+
+        public bool UpdateProduct(string id, string nombre, string precio, string cantidad)
+>>>>>>> 6ac25b1b7b7c4163c6a9785229ebf6e6b8a2163f
         {
             using (SqlConnection con = new SqlConnection(connectionString))
             {
                 try
                 {
                     con.Open();
+<<<<<<< HEAD
                     using (SqlCommand cmd = new SqlCommand("DeleteUserLogin", con))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
@@ -259,6 +273,17 @@ namespace Bing_Bong_Factory.Datos
                         cmd.Parameters.AddWithValue("@User_lastname", User_lastname);
                         cmd.Parameters.AddWithValue("@User_email", User_email);
                         cmd.Parameters.AddWithValue("@User_password", password);
+=======
+                    using (SqlCommand cmd = new SqlCommand("UpdateProduct", con))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+
+                        //Agregar parametros al llamado del procedimiento
+                        cmd.Parameters.AddWithValue("@Product_id", id);
+                        cmd.Parameters.AddWithValue("@Product_name", nombre);
+                        cmd.Parameters.AddWithValue("@Unit_price", precio);
+                        cmd.Parameters.AddWithValue("@Unit_in_stock", cantidad);
+>>>>>>> 6ac25b1b7b7c4163c6a9785229ebf6e6b8a2163f
 
                         cmd.ExecuteNonQuery();
 
@@ -278,6 +303,7 @@ namespace Bing_Bong_Factory.Datos
                 }
                 catch (Exception ex)
                 {
+<<<<<<< HEAD
                     MessageBox.Show("Error: " + ex.Message);
                 }
                 return false;
@@ -285,3 +311,13 @@ namespace Bing_Bong_Factory.Datos
         }
     }
 }
+=======
+                    return false;
+                }
+
+
+            }
+        }
+    }
+    }
+>>>>>>> 6ac25b1b7b7c4163c6a9785229ebf6e6b8a2163f
