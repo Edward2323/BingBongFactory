@@ -283,5 +283,45 @@ namespace Bing_Bong_Factory.Datos
                 return false;
             }
         }
-    }
-}
+
+        public bool UpdateProduct(string id, string nombre, string precio, string cantidad)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    con.Open();
+                    using (SqlCommand cmd = new SqlCommand("UpdateProduct", con))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+
+                        //Agregar parametros al llamado del procedimiento
+                        cmd.Parameters.AddWithValue("@Product_id", id);
+                        cmd.Parameters.AddWithValue("@Product_name", nombre);
+                        cmd.Parameters.AddWithValue("@Unit_price", precio);
+                        cmd.Parameters.AddWithValue("@Unit_in_stock", cantidad);
+
+                        cmd.ExecuteNonQuery();
+
+                        using (SqlCommand checkError = new SqlCommand("SELECT @@ERROR", con))
+                        {
+                            int errorCode = (int)checkError.ExecuteScalar();
+                            if (errorCode == 0)
+                            {
+                                return true;
+                            }
+                            else
+                            {
+                                return false;
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    return false;
+                }
+            }
+        }
+    }}
+

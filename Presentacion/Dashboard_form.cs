@@ -30,7 +30,7 @@ namespace Bing_Bong_Factory
             loadData();
         }
 
-        private void loadData()
+        public void loadData()
         {
             List<DataGridViewRow> DataProducts = db.GetProduct();
 
@@ -171,6 +171,7 @@ namespace Bing_Bong_Factory
                 db.DeleteProduct(productID);
 
                 dgvProductos.Rows.RemoveAt(dgvProductos.SelectedRows[0].Index); // Elimina la fila del DataGridView
+
             }
             else
             {
@@ -186,8 +187,25 @@ namespace Bing_Bong_Factory
 
         private void EdtProduct_btn_Click(object sender, EventArgs e)
         {
-            FrmEditar frmEditar = new FrmEditar();
-            frmEditar.Show();
+
+            if (dgvProductos.SelectedRows.Count > 0) // Verifica si hay una fila seleccionada
+            {
+
+                int productID = Convert.ToInt32(dgvProductos.SelectedRows[0].Cells[0].Value); //tomar el valor de la primera columna seleccionada
+
+                FrmEditar frmEditar = new FrmEditar(dgvProductos.SelectedRows[0].Cells[0].Value.ToString(), dgvProductos.SelectedRows[0].Cells[1].Value.ToString(),
+                                                    dgvProductos.SelectedRows[0].Cells[2].Value.ToString(), dgvProductos.SelectedRows[0].Cells[3].Value.ToString());
+                frmEditar.Show();
+
+
+
+            }
+            else
+            {
+                MessageBox.Show("Seleccione un producto para actualizar.");
+            }
+
+
         }
 
         private void Search_btn_Click(object sender, EventArgs e)

@@ -17,7 +17,7 @@ namespace Bing_Bong_Factory
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login_form());
+            Application.Run(new Dashboard_form());
         }
     }
 }
