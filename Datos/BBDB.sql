@@ -198,3 +198,29 @@ SELECT * FROM UserLogin;
 SELECT * FROM Products;
 SELECT * FROM Orders;
 SELECT * FROM Order_Details;
+
+--  Aqui cree  el procedimiento almacenado, nombre,ID del producto,`recio unitario, cantidad de producto
+CREATE PROCEDURE AddOrderWithDetails
+    @Employee_name VARCHAR(50), 
+    @Product_id INT, 
+    @Unit_price MONEY, 
+    @Quantity SMALLINT 
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    DECLARE @Order_id INT; -- Esta es la variable para almacenar el ID de la orden
+
+    --  Aqui inserte lo que es  un nuevo pedido en la tabla Orders
+    INSERT INTO Orders (Order_date, Employee_name)
+    VALUES (GETDATE(), @Employee_name);
+
+    --  Esto aqui es para Obtener el ID de la orden recién insertada
+    SET @Order_id = SCOPE_IDENTITY();
+
+    -- Estoa aqui es para Insertar detalles del pedido en Order_Details
+    INSERT INTO Order_Details (Order_id, Product_id, Unit_price, Quantity)
+    VALUES (@Order_id, @Product_id, @Unit_price, @Quantity);
+
+END;
+GO
