@@ -49,26 +49,27 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges16 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges17 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges18 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges19 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges20 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges19 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges20 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges21 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges22 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges23 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges24 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.bunifuPictureBox1 = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.Side_bar = new Bunifu.UI.WinForms.BunifuPanel();
             this.Empleados_btn = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
@@ -97,6 +98,10 @@
             this.btnActualizar = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
             this.btnInsertar = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
             this.dgvProductos = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nombre_producto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Columna_Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Impuesto_cln = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Ventas_pg = new System.Windows.Forms.TabPage();
             this.HistorialDataGridView = new Bunifu.UI.WinForms.BunifuDataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -107,42 +112,38 @@
             this.Estadisticas_pg = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.Ventaspg = new System.Windows.Forms.TabPage();
+            this.bunifuLabel5 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel4 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel3 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuButton21 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
-            this.NC_btn = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
             this.Print_btm = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
             this.Remove_btn = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
             this.Search_btn = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
             this.Venta_dgv = new Bunifu.UI.WinForms.BunifuDataGridView();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Empleados_pg = new System.Windows.Forms.TabPage();
             this.bunifuButton24 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
             this.bunifuButton25 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
             this.bunifuButton26 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
             this.bunifuButton27 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
             this.EmpleadosDataGridView = new Bunifu.UI.WinForms.BunifuDataGridView();
-            this.bunifuFormDock1 = new Bunifu.UI.WinForms.BunifuFormDock();
-            this.bunifuFormDrag1 = new Bunifu.UI.WinForms.BunifuFormDrag();
-            this.bunifuFormDrag2 = new Bunifu.UI.WinForms.BunifuFormDrag();
-            this.Hora_y_Fecha = new System.Windows.Forms.Timer(this.components);
-            this.Close_pnl = new System.Windows.Forms.Panel();
-            this.Minimize_pnl = new System.Windows.Forms.Panel();
             this.IDUser = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Sueldo_cln = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nombre_producto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Columna_Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Impuesto_cln = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bunifuFormDock1 = new Bunifu.UI.WinForms.BunifuFormDock();
+            this.bunifuFormDrag1 = new Bunifu.UI.WinForms.BunifuFormDrag();
+            this.bunifuFormDrag2 = new Bunifu.UI.WinForms.BunifuFormDrag();
+            this.Hora_y_Fecha = new System.Windows.Forms.Timer(this.components);
+            this.Close_pnl = new System.Windows.Forms.Panel();
+            this.Minimize_pnl = new System.Windows.Forms.Panel();
+            this.bunifuLabel6 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel7 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel8 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).BeginInit();
             this.Side_bar.SuspendLayout();
             this.PestañasV.SuspendLayout();
@@ -228,7 +229,7 @@
             this.Empleados_btn.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.Empleados_btn.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.Empleados_btn.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
-            this.Empleados_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Empleados_btn.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold);
             this.Empleados_btn.ForeColor = System.Drawing.Color.White;
             this.Empleados_btn.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Empleados_btn.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
@@ -295,13 +296,13 @@
             this.bunifuLabel2.AllowParentOverrides = false;
             this.bunifuLabel2.AutoEllipsis = false;
             this.bunifuLabel2.CursorType = null;
-            this.bunifuLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel2.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel2.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel2.Location = new System.Drawing.Point(70, 48);
+            this.bunifuLabel2.Location = new System.Drawing.Point(63, 44);
             this.bunifuLabel2.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel2.Name = "bunifuLabel2";
             this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel2.Size = new System.Drawing.Size(57, 15);
+            this.bunifuLabel2.Size = new System.Drawing.Size(56, 15);
             this.bunifuLabel2.TabIndex = 22;
             this.bunifuLabel2.Text = "Empleado";
             this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -313,13 +314,13 @@
             this.bunifuLabel1.AutoEllipsis = false;
             this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel1.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel1.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel1.Location = new System.Drawing.Point(70, 28);
+            this.bunifuLabel1.Location = new System.Drawing.Point(63, 25);
             this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(121, 15);
+            this.bunifuLabel1.Size = new System.Drawing.Size(122, 15);
             this.bunifuLabel1.TabIndex = 21;
             this.bunifuLabel1.Text = "Correo@ejemplo.com";
             this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -354,7 +355,7 @@
             this.Btn_venta.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.Btn_venta.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.Btn_venta.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
-            this.Btn_venta.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_venta.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold);
             this.Btn_venta.ForeColor = System.Drawing.Color.White;
             this.Btn_venta.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Btn_venta.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
@@ -445,7 +446,7 @@
             this.Btn_ayuda.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.Btn_ayuda.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.Btn_ayuda.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
-            this.Btn_ayuda.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_ayuda.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_ayuda.ForeColor = System.Drawing.Color.White;
             this.Btn_ayuda.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Btn_ayuda.IconLeftCursor = System.Windows.Forms.Cursors.Default;
@@ -536,7 +537,7 @@
             this.Btn_configuracion.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.Btn_configuracion.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.Btn_configuracion.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
-            this.Btn_configuracion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_configuracion.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_configuracion.ForeColor = System.Drawing.Color.White;
             this.Btn_configuracion.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Btn_configuracion.IconLeftCursor = System.Windows.Forms.Cursors.Default;
@@ -627,7 +628,7 @@
             this.Btn_historial.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.Btn_historial.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.Btn_historial.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
-            this.Btn_historial.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_historial.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold);
             this.Btn_historial.ForeColor = System.Drawing.Color.White;
             this.Btn_historial.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Btn_historial.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
@@ -718,7 +719,7 @@
             this.Btn_Inventario.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.Btn_Inventario.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.Btn_Inventario.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
-            this.Btn_Inventario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Inventario.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold);
             this.Btn_Inventario.ForeColor = System.Drawing.Color.White;
             this.Btn_Inventario.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Btn_Inventario.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
@@ -809,7 +810,7 @@
             this.btnhome.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.btnhome.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.btnhome.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
-            this.btnhome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnhome.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnhome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnhome.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnhome.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
@@ -886,10 +887,10 @@
             this.PestañasV.Margin = new System.Windows.Forms.Padding(2);
             this.PestañasV.Multiline = true;
             this.PestañasV.Name = "PestañasV";
-            this.PestañasV.Page = this.inventario_pg;
-            this.PestañasV.PageIndex = 1;
-            this.PestañasV.PageName = "inventario_pg";
-            this.PestañasV.PageTitle = "Inventario";
+            this.PestañasV.Page = this.Ventaspg;
+            this.PestañasV.PageIndex = 5;
+            this.PestañasV.PageName = "Ventaspg";
+            this.PestañasV.PageTitle = "Ventas";
             this.PestañasV.SelectedIndex = 0;
             this.PestañasV.Size = new System.Drawing.Size(921, 720);
             this.PestañasV.TabIndex = 1;
@@ -933,12 +934,12 @@
             // 
             // bunifuCircleProgress1
             // 
-            this.bunifuCircleProgress1.Animated = true;
+            this.bunifuCircleProgress1.Animated = false;
             this.bunifuCircleProgress1.AnimationInterval = 1;
             this.bunifuCircleProgress1.AnimationSpeed = 1;
             this.bunifuCircleProgress1.BackColor = System.Drawing.Color.Transparent;
             this.bunifuCircleProgress1.CircleMargin = 10;
-            this.bunifuCircleProgress1.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold);
+            this.bunifuCircleProgress1.Font = new System.Drawing.Font("Roboto", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCircleProgress1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuCircleProgress1.IsPercentage = false;
             this.bunifuCircleProgress1.LineProgressThickness = 10;
@@ -996,7 +997,7 @@
             this.Emp_btn_pnl.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.Emp_btn_pnl.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.Emp_btn_pnl.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
-            this.Emp_btn_pnl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Emp_btn_pnl.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold);
             this.Emp_btn_pnl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(71)))));
             this.Emp_btn_pnl.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Emp_btn_pnl.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
@@ -1087,7 +1088,7 @@
             this.His_btn_pnl.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.His_btn_pnl.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.His_btn_pnl.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
-            this.His_btn_pnl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.His_btn_pnl.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold);
             this.His_btn_pnl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(71)))));
             this.His_btn_pnl.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.His_btn_pnl.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
@@ -1179,7 +1180,7 @@
             this.Inv_btn_pnl.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.Inv_btn_pnl.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.Inv_btn_pnl.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
-            this.Inv_btn_pnl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inv_btn_pnl.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Inv_btn_pnl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(71)))));
             this.Inv_btn_pnl.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Inv_btn_pnl.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
@@ -1270,7 +1271,7 @@
             this.Ven_btn_pnl.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.Ven_btn_pnl.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.Ven_btn_pnl.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
-            this.Ven_btn_pnl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ven_btn_pnl.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold);
             this.Ven_btn_pnl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(71)))));
             this.Ven_btn_pnl.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Ven_btn_pnl.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
@@ -1347,12 +1348,12 @@
             this.Date_lbl.AllowParentOverrides = false;
             this.Date_lbl.AutoEllipsis = false;
             this.Date_lbl.CursorType = null;
-            this.Date_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Date_lbl.Font = new System.Drawing.Font("Roboto", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Date_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(71)))));
             this.Date_lbl.Location = new System.Drawing.Point(19, 91);
             this.Date_lbl.Name = "Date_lbl";
             this.Date_lbl.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Date_lbl.Size = new System.Drawing.Size(174, 30);
+            this.Date_lbl.Size = new System.Drawing.Size(172, 33);
             this.Date_lbl.TabIndex = 4;
             this.Date_lbl.Text = "DD-MM-YYYY";
             this.Date_lbl.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1363,12 +1364,12 @@
             this.Salute_lbl.AllowParentOverrides = false;
             this.Salute_lbl.AutoEllipsis = false;
             this.Salute_lbl.CursorType = null;
-            this.Salute_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Salute_lbl.Font = new System.Drawing.Font("Roboto", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Salute_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(71)))));
             this.Salute_lbl.Location = new System.Drawing.Point(19, 129);
             this.Salute_lbl.Name = "Salute_lbl";
             this.Salute_lbl.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Salute_lbl.Size = new System.Drawing.Size(178, 31);
+            this.Salute_lbl.Size = new System.Drawing.Size(163, 33);
             this.Salute_lbl.TabIndex = 2;
             this.Salute_lbl.Text = "¡Buenos dias!";
             this.Salute_lbl.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1379,12 +1380,12 @@
             this.hour_lbl.AllowParentOverrides = false;
             this.hour_lbl.AutoEllipsis = false;
             this.hour_lbl.CursorType = null;
-            this.hour_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hour_lbl.Font = new System.Drawing.Font("Roboto", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hour_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(71)))));
             this.hour_lbl.Location = new System.Drawing.Point(5, -9);
             this.hour_lbl.Name = "hour_lbl";
             this.hour_lbl.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.hour_lbl.Size = new System.Drawing.Size(244, 108);
+            this.hour_lbl.Size = new System.Drawing.Size(247, 115);
             this.hour_lbl.TabIndex = 1;
             this.hour_lbl.Text = "00:00";
             this.hour_lbl.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1436,7 +1437,7 @@
             this.EdtProduct_btn.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.EdtProduct_btn.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.EdtProduct_btn.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
-            this.EdtProduct_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
+            this.EdtProduct_btn.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Bold);
             this.EdtProduct_btn.ForeColor = System.Drawing.Color.White;
             this.EdtProduct_btn.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.EdtProduct_btn.IconLeftCursor = System.Windows.Forms.Cursors.Default;
@@ -1527,7 +1528,7 @@
             this.DltProduct_btn.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.DltProduct_btn.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.DltProduct_btn.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
-            this.DltProduct_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
+            this.DltProduct_btn.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Bold);
             this.DltProduct_btn.ForeColor = System.Drawing.Color.White;
             this.DltProduct_btn.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.DltProduct_btn.IconLeftCursor = System.Windows.Forms.Cursors.Default;
@@ -1618,7 +1619,7 @@
             this.btnActualizar.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.btnActualizar.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.btnActualizar.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
-            this.btnActualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
+            this.btnActualizar.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Bold);
             this.btnActualizar.ForeColor = System.Drawing.Color.White;
             this.btnActualizar.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnActualizar.IconLeftCursor = System.Windows.Forms.Cursors.Default;
@@ -1709,7 +1710,7 @@
             this.btnInsertar.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.btnInsertar.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.btnInsertar.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
-            this.btnInsertar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInsertar.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInsertar.ForeColor = System.Drawing.Color.White;
             this.btnInsertar.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnInsertar.IconLeftCursor = System.Windows.Forms.Cursors.Default;
@@ -1788,7 +1789,7 @@
             this.dgvProductos.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
@@ -1801,26 +1802,26 @@
             this.Columna_Precio,
             this.Impuesto_cln});
             this.dgvProductos.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dgvProductos.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvProductos.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold);
             this.dgvProductos.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
             this.dgvProductos.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Silver;
             this.dgvProductos.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
             this.dgvProductos.CurrentTheme.BackColor = System.Drawing.Color.White;
             this.dgvProductos.CurrentTheme.GridColor = System.Drawing.Color.White;
             this.dgvProductos.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
-            this.dgvProductos.CurrentTheme.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvProductos.CurrentTheme.HeaderStyle.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold);
             this.dgvProductos.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.dgvProductos.CurrentTheme.HeaderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
             this.dgvProductos.CurrentTheme.HeaderStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
             this.dgvProductos.CurrentTheme.Name = null;
             this.dgvProductos.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.dgvProductos.CurrentTheme.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvProductos.CurrentTheme.RowsStyle.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold);
             this.dgvProductos.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
             this.dgvProductos.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
             this.dgvProductos.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold);
             dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
@@ -1841,6 +1842,40 @@
             this.dgvProductos.Size = new System.Drawing.Size(909, 610);
             this.dgvProductos.TabIndex = 0;
             this.dgvProductos.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Dark;
+            // 
+            // ID
+            // 
+            this.ID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.ID.FillWeight = 1F;
+            this.ID.HeaderText = "ID";
+            this.ID.MinimumWidth = 2;
+            this.ID.Name = "ID";
+            this.ID.Visible = false;
+            this.ID.Width = 2;
+            // 
+            // Nombre_producto
+            // 
+            this.Nombre_producto.FillWeight = 153.1749F;
+            this.Nombre_producto.HeaderText = "Nombre";
+            this.Nombre_producto.MinimumWidth = 6;
+            this.Nombre_producto.Name = "Nombre_producto";
+            // 
+            // Columna_Precio
+            // 
+            dataGridViewCellStyle3.Format = "C2";
+            dataGridViewCellStyle3.NullValue = null;
+            this.Columna_Precio.DefaultCellStyle = dataGridViewCellStyle3;
+            this.Columna_Precio.FillWeight = 153.1749F;
+            this.Columna_Precio.HeaderText = "Precio";
+            this.Columna_Precio.MinimumWidth = 6;
+            this.Columna_Precio.Name = "Columna_Precio";
+            // 
+            // Impuesto_cln
+            // 
+            this.Impuesto_cln.FillWeight = 153.1749F;
+            this.Impuesto_cln.HeaderText = "Cantidad";
+            this.Impuesto_cln.MinimumWidth = 6;
+            this.Impuesto_cln.Name = "Impuesto_cln";
             // 
             // Ventas_pg
             // 
@@ -1867,7 +1902,7 @@
             this.HistorialDataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.White;
             dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
@@ -1978,10 +2013,12 @@
             // Ventaspg
             // 
             this.Ventaspg.AutoScroll = true;
+            this.Ventaspg.Controls.Add(this.bunifuLabel8);
+            this.Ventaspg.Controls.Add(this.bunifuLabel7);
+            this.Ventaspg.Controls.Add(this.bunifuLabel6);
+            this.Ventaspg.Controls.Add(this.bunifuLabel5);
             this.Ventaspg.Controls.Add(this.bunifuLabel4);
             this.Ventaspg.Controls.Add(this.bunifuLabel3);
-            this.Ventaspg.Controls.Add(this.bunifuButton21);
-            this.Ventaspg.Controls.Add(this.NC_btn);
             this.Ventaspg.Controls.Add(this.Print_btm);
             this.Ventaspg.Controls.Add(this.Remove_btn);
             this.Ventaspg.Controls.Add(this.Search_btn);
@@ -1994,18 +2031,37 @@
             this.Ventaspg.Text = "Ventas";
             this.Ventaspg.UseVisualStyleBackColor = true;
             // 
+            // bunifuLabel5
+            // 
+            this.bunifuLabel5.AllowParentOverrides = false;
+            this.bunifuLabel5.AutoEllipsis = false;
+            this.bunifuLabel5.CursorType = null;
+            this.bunifuLabel5.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel5.ForeColor = System.Drawing.Color.Black;
+            this.bunifuLabel5.Location = new System.Drawing.Point(728, 651);
+            this.bunifuLabel5.Margin = new System.Windows.Forms.Padding(2);
+            this.bunifuLabel5.Name = "bunifuLabel5";
+            this.bunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel5.Size = new System.Drawing.Size(96, 19);
+            this.bunifuLabel5.TabIndex = 28;
+            this.bunifuLabel5.Text = "Total a pagar";
+            this.bunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel5.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
             // bunifuLabel4
             // 
             this.bunifuLabel4.AllowParentOverrides = false;
             this.bunifuLabel4.AutoEllipsis = false;
             this.bunifuLabel4.CursorType = null;
-            this.bunifuLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel4.Location = new System.Drawing.Point(780, 105);
+            this.bunifuLabel4.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel4.ForeColor = System.Drawing.Color.Black;
+            this.bunifuLabel4.Location = new System.Drawing.Point(728, 628);
+            this.bunifuLabel4.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel4.Name = "bunifuLabel4";
             this.bunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel4.Size = new System.Drawing.Size(100, 18);
-            this.bunifuLabel4.TabIndex = 30;
-            this.bunifuLabel4.Text = "Nombre cliente";
+            this.bunifuLabel4.Size = new System.Drawing.Size(73, 19);
+            this.bunifuLabel4.TabIndex = 27;
+            this.bunifuLabel4.Text = "Impuesto:";
             this.bunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel4.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
@@ -2013,198 +2069,18 @@
             // 
             this.bunifuLabel3.AllowParentOverrides = false;
             this.bunifuLabel3.AutoEllipsis = false;
-            this.bunifuLabel3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel3.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel3.Location = new System.Drawing.Point(723, 105);
+            this.bunifuLabel3.CursorType = null;
+            this.bunifuLabel3.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel3.ForeColor = System.Drawing.Color.Black;
+            this.bunifuLabel3.Location = new System.Drawing.Point(728, 605);
+            this.bunifuLabel3.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel3.Name = "bunifuLabel3";
             this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel3.Size = new System.Drawing.Size(57, 18);
-            this.bunifuLabel3.TabIndex = 29;
-            this.bunifuLabel3.Text = "Cliente:";
+            this.bunifuLabel3.Size = new System.Drawing.Size(65, 19);
+            this.bunifuLabel3.TabIndex = 24;
+            this.bunifuLabel3.Text = "Subtotal:";
             this.bunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel3.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuButton21
-            // 
-            this.bunifuButton21.AllowAnimations = true;
-            this.bunifuButton21.AllowMouseEffects = true;
-            this.bunifuButton21.AllowToggling = false;
-            this.bunifuButton21.AnimationSpeed = 200;
-            this.bunifuButton21.AutoGenerateColors = false;
-            this.bunifuButton21.AutoRoundBorders = true;
-            this.bunifuButton21.AutoSizeLeftIcon = false;
-            this.bunifuButton21.AutoSizeRightIcon = true;
-            this.bunifuButton21.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuButton21.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
-            this.bunifuButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuButton21.BackgroundImage")));
-            this.bunifuButton21.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
-            this.bunifuButton21.ButtonText = "Buscar cliente";
-            this.bunifuButton21.ButtonTextMarginLeft = 0;
-            this.bunifuButton21.ColorContrastOnClick = 45;
-            this.bunifuButton21.ColorContrastOnHover = 45;
-            this.bunifuButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges16.BottomLeft = true;
-            borderEdges16.BottomRight = true;
-            borderEdges16.TopLeft = true;
-            borderEdges16.TopRight = true;
-            this.bunifuButton21.CustomizableEdges = borderEdges16;
-            this.bunifuButton21.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.bunifuButton21.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.bunifuButton21.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.bunifuButton21.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.bunifuButton21.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
-            this.bunifuButton21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuButton21.ForeColor = System.Drawing.Color.White;
-            this.bunifuButton21.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuButton21.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuButton21.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
-            this.bunifuButton21.IconMarginLeft = 11;
-            this.bunifuButton21.IconPadding = 10;
-            this.bunifuButton21.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.bunifuButton21.IconRightCursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuButton21.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
-            this.bunifuButton21.IconSize = 20;
-            this.bunifuButton21.IdleBorderColor = System.Drawing.Color.Transparent;
-            this.bunifuButton21.IdleBorderRadius = 30;
-            this.bunifuButton21.IdleBorderThickness = 1;
-            this.bunifuButton21.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
-            this.bunifuButton21.IdleIconLeftImage = ((System.Drawing.Image)(resources.GetObject("bunifuButton21.IdleIconLeftImage")));
-            this.bunifuButton21.IdleIconRightImage = null;
-            this.bunifuButton21.IndicateFocus = false;
-            this.bunifuButton21.Location = new System.Drawing.Point(553, 16);
-            this.bunifuButton21.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
-            this.bunifuButton21.Name = "bunifuButton21";
-            this.bunifuButton21.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.bunifuButton21.OnDisabledState.BorderRadius = 30;
-            this.bunifuButton21.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
-            this.bunifuButton21.OnDisabledState.BorderThickness = 1;
-            this.bunifuButton21.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.bunifuButton21.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.bunifuButton21.OnDisabledState.IconLeftImage = null;
-            this.bunifuButton21.OnDisabledState.IconRightImage = null;
-            this.bunifuButton21.onHoverState.BorderColor = System.Drawing.Color.White;
-            this.bunifuButton21.onHoverState.BorderRadius = 30;
-            this.bunifuButton21.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
-            this.bunifuButton21.onHoverState.BorderThickness = 1;
-            this.bunifuButton21.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
-            this.bunifuButton21.onHoverState.ForeColor = System.Drawing.Color.White;
-            this.bunifuButton21.onHoverState.IconLeftImage = null;
-            this.bunifuButton21.onHoverState.IconRightImage = null;
-            this.bunifuButton21.OnIdleState.BorderColor = System.Drawing.Color.Transparent;
-            this.bunifuButton21.OnIdleState.BorderRadius = 30;
-            this.bunifuButton21.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
-            this.bunifuButton21.OnIdleState.BorderThickness = 1;
-            this.bunifuButton21.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
-            this.bunifuButton21.OnIdleState.ForeColor = System.Drawing.Color.White;
-            this.bunifuButton21.OnIdleState.IconLeftImage = ((System.Drawing.Image)(resources.GetObject("bunifuButton21.OnIdleState.IconLeftImage")));
-            this.bunifuButton21.OnIdleState.IconRightImage = null;
-            this.bunifuButton21.OnPressedState.BorderColor = System.Drawing.Color.White;
-            this.bunifuButton21.OnPressedState.BorderRadius = 30;
-            this.bunifuButton21.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
-            this.bunifuButton21.OnPressedState.BorderThickness = 1;
-            this.bunifuButton21.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
-            this.bunifuButton21.OnPressedState.ForeColor = System.Drawing.Color.White;
-            this.bunifuButton21.OnPressedState.IconLeftImage = null;
-            this.bunifuButton21.OnPressedState.IconRightImage = null;
-            this.bunifuButton21.Size = new System.Drawing.Size(156, 32);
-            this.bunifuButton21.TabIndex = 28;
-            this.bunifuButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuButton21.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
-            this.bunifuButton21.TextMarginLeft = 0;
-            this.bunifuButton21.TextPadding = new System.Windows.Forms.Padding(0);
-            this.bunifuButton21.UseDefaultRadiusAndThickness = true;
-            // 
-            // NC_btn
-            // 
-            this.NC_btn.AllowAnimations = true;
-            this.NC_btn.AllowMouseEffects = true;
-            this.NC_btn.AllowToggling = false;
-            this.NC_btn.AnimationSpeed = 200;
-            this.NC_btn.AutoGenerateColors = false;
-            this.NC_btn.AutoRoundBorders = true;
-            this.NC_btn.AutoSizeLeftIcon = false;
-            this.NC_btn.AutoSizeRightIcon = true;
-            this.NC_btn.BackColor = System.Drawing.Color.Transparent;
-            this.NC_btn.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
-            this.NC_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("NC_btn.BackgroundImage")));
-            this.NC_btn.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
-            this.NC_btn.ButtonText = "Nuevo cliente";
-            this.NC_btn.ButtonTextMarginLeft = 0;
-            this.NC_btn.ColorContrastOnClick = 45;
-            this.NC_btn.ColorContrastOnHover = 45;
-            this.NC_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges17.BottomLeft = true;
-            borderEdges17.BottomRight = true;
-            borderEdges17.TopLeft = true;
-            borderEdges17.TopRight = true;
-            this.NC_btn.CustomizableEdges = borderEdges17;
-            this.NC_btn.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.NC_btn.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.NC_btn.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.NC_btn.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.NC_btn.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
-            this.NC_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NC_btn.ForeColor = System.Drawing.Color.White;
-            this.NC_btn.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.NC_btn.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.NC_btn.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
-            this.NC_btn.IconMarginLeft = 11;
-            this.NC_btn.IconPadding = 10;
-            this.NC_btn.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.NC_btn.IconRightCursor = System.Windows.Forms.Cursors.Default;
-            this.NC_btn.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
-            this.NC_btn.IconSize = 20;
-            this.NC_btn.IdleBorderColor = System.Drawing.Color.Transparent;
-            this.NC_btn.IdleBorderRadius = 30;
-            this.NC_btn.IdleBorderThickness = 1;
-            this.NC_btn.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
-            this.NC_btn.IdleIconLeftImage = ((System.Drawing.Image)(resources.GetObject("NC_btn.IdleIconLeftImage")));
-            this.NC_btn.IdleIconRightImage = null;
-            this.NC_btn.IndicateFocus = false;
-            this.NC_btn.Location = new System.Drawing.Point(10, 91);
-            this.NC_btn.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
-            this.NC_btn.Name = "NC_btn";
-            this.NC_btn.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.NC_btn.OnDisabledState.BorderRadius = 30;
-            this.NC_btn.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
-            this.NC_btn.OnDisabledState.BorderThickness = 1;
-            this.NC_btn.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.NC_btn.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.NC_btn.OnDisabledState.IconLeftImage = null;
-            this.NC_btn.OnDisabledState.IconRightImage = null;
-            this.NC_btn.onHoverState.BorderColor = System.Drawing.Color.White;
-            this.NC_btn.onHoverState.BorderRadius = 30;
-            this.NC_btn.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
-            this.NC_btn.onHoverState.BorderThickness = 1;
-            this.NC_btn.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
-            this.NC_btn.onHoverState.ForeColor = System.Drawing.Color.White;
-            this.NC_btn.onHoverState.IconLeftImage = null;
-            this.NC_btn.onHoverState.IconRightImage = null;
-            this.NC_btn.OnIdleState.BorderColor = System.Drawing.Color.Transparent;
-            this.NC_btn.OnIdleState.BorderRadius = 30;
-            this.NC_btn.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
-            this.NC_btn.OnIdleState.BorderThickness = 1;
-            this.NC_btn.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
-            this.NC_btn.OnIdleState.ForeColor = System.Drawing.Color.White;
-            this.NC_btn.OnIdleState.IconLeftImage = ((System.Drawing.Image)(resources.GetObject("NC_btn.OnIdleState.IconLeftImage")));
-            this.NC_btn.OnIdleState.IconRightImage = null;
-            this.NC_btn.OnPressedState.BorderColor = System.Drawing.Color.White;
-            this.NC_btn.OnPressedState.BorderRadius = 30;
-            this.NC_btn.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
-            this.NC_btn.OnPressedState.BorderThickness = 1;
-            this.NC_btn.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
-            this.NC_btn.OnPressedState.ForeColor = System.Drawing.Color.White;
-            this.NC_btn.OnPressedState.IconLeftImage = null;
-            this.NC_btn.OnPressedState.IconRightImage = null;
-            this.NC_btn.Size = new System.Drawing.Size(156, 32);
-            this.NC_btn.TabIndex = 27;
-            this.NC_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.NC_btn.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
-            this.NC_btn.TextMarginLeft = 0;
-            this.NC_btn.TextPadding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.NC_btn.UseDefaultRadiusAndThickness = true;
-            this.NC_btn.Click += new System.EventHandler(this.NC_btn_Click);
             // 
             // Print_btm
             // 
@@ -2225,17 +2101,17 @@
             this.Print_btm.ColorContrastOnClick = 45;
             this.Print_btm.ColorContrastOnHover = 45;
             this.Print_btm.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges18.BottomLeft = true;
-            borderEdges18.BottomRight = true;
-            borderEdges18.TopLeft = true;
-            borderEdges18.TopRight = true;
-            this.Print_btm.CustomizableEdges = borderEdges18;
+            borderEdges16.BottomLeft = true;
+            borderEdges16.BottomRight = true;
+            borderEdges16.TopLeft = true;
+            borderEdges16.TopRight = true;
+            this.Print_btm.CustomizableEdges = borderEdges16;
             this.Print_btm.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Print_btm.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.Print_btm.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.Print_btm.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.Print_btm.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
-            this.Print_btm.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Print_btm.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold);
             this.Print_btm.ForeColor = System.Drawing.Color.White;
             this.Print_btm.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Print_btm.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
@@ -2253,7 +2129,7 @@
             this.Print_btm.IdleIconLeftImage = ((System.Drawing.Image)(resources.GetObject("Print_btm.IdleIconLeftImage")));
             this.Print_btm.IdleIconRightImage = null;
             this.Print_btm.IndicateFocus = false;
-            this.Print_btm.Location = new System.Drawing.Point(340, 91);
+            this.Print_btm.Location = new System.Drawing.Point(350, 91);
             this.Print_btm.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.Print_btm.Name = "Print_btm";
             this.Print_btm.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
@@ -2316,17 +2192,17 @@
             this.Remove_btn.ColorContrastOnClick = 45;
             this.Remove_btn.ColorContrastOnHover = 45;
             this.Remove_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges19.BottomLeft = true;
-            borderEdges19.BottomRight = true;
-            borderEdges19.TopLeft = true;
-            borderEdges19.TopRight = true;
-            this.Remove_btn.CustomizableEdges = borderEdges19;
+            borderEdges17.BottomLeft = true;
+            borderEdges17.BottomRight = true;
+            borderEdges17.TopLeft = true;
+            borderEdges17.TopRight = true;
+            this.Remove_btn.CustomizableEdges = borderEdges17;
             this.Remove_btn.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Remove_btn.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.Remove_btn.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.Remove_btn.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.Remove_btn.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
-            this.Remove_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Remove_btn.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold);
             this.Remove_btn.ForeColor = System.Drawing.Color.White;
             this.Remove_btn.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Remove_btn.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
@@ -2344,7 +2220,7 @@
             this.Remove_btn.IdleIconLeftImage = ((System.Drawing.Image)(resources.GetObject("Remove_btn.IdleIconLeftImage")));
             this.Remove_btn.IdleIconRightImage = null;
             this.Remove_btn.IndicateFocus = false;
-            this.Remove_btn.Location = new System.Drawing.Point(177, 91);
+            this.Remove_btn.Location = new System.Drawing.Point(180, 90);
             this.Remove_btn.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.Remove_btn.Name = "Remove_btn";
             this.Remove_btn.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
@@ -2407,17 +2283,17 @@
             this.Search_btn.ColorContrastOnClick = 45;
             this.Search_btn.ColorContrastOnHover = 45;
             this.Search_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges20.BottomLeft = true;
-            borderEdges20.BottomRight = true;
-            borderEdges20.TopLeft = true;
-            borderEdges20.TopRight = true;
-            this.Search_btn.CustomizableEdges = borderEdges20;
+            borderEdges18.BottomLeft = true;
+            borderEdges18.BottomRight = true;
+            borderEdges18.TopLeft = true;
+            borderEdges18.TopRight = true;
+            this.Search_btn.CustomizableEdges = borderEdges18;
             this.Search_btn.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Search_btn.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.Search_btn.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.Search_btn.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.Search_btn.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
-            this.Search_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Search_btn.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold);
             this.Search_btn.ForeColor = System.Drawing.Color.White;
             this.Search_btn.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Search_btn.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
@@ -2435,7 +2311,7 @@
             this.Search_btn.IdleIconLeftImage = ((System.Drawing.Image)(resources.GetObject("Search_btn.IdleIconLeftImage")));
             this.Search_btn.IdleIconRightImage = null;
             this.Search_btn.IndicateFocus = false;
-            this.Search_btn.Location = new System.Drawing.Point(723, 16);
+            this.Search_btn.Location = new System.Drawing.Point(1, 91);
             this.Search_btn.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.Search_btn.Name = "Search_btn";
             this.Search_btn.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
@@ -2470,7 +2346,7 @@
             this.Search_btn.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.Search_btn.OnPressedState.IconLeftImage = null;
             this.Search_btn.OnPressedState.IconRightImage = null;
-            this.Search_btn.Size = new System.Drawing.Size(156, 32);
+            this.Search_btn.Size = new System.Drawing.Size(165, 32);
             this.Search_btn.TabIndex = 24;
             this.Search_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Search_btn.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2492,7 +2368,7 @@
             this.Venta_dgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold);
             dataGridViewCellStyle9.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.White;
             dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.White;
@@ -2503,35 +2379,33 @@
             this.dataGridViewTextBoxColumn3,
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn9,
-            this.dataGridViewTextBoxColumn10,
-            this.dataGridViewTextBoxColumn11,
-            this.dataGridViewTextBoxColumn12});
+            this.dataGridViewTextBoxColumn10});
             this.Venta_dgv.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.Venta_dgv.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Venta_dgv.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Venta_dgv.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.White;
             this.Venta_dgv.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Silver;
             this.Venta_dgv.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
             this.Venta_dgv.CurrentTheme.BackColor = System.Drawing.Color.White;
             this.Venta_dgv.CurrentTheme.GridColor = System.Drawing.Color.White;
             this.Venta_dgv.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
-            this.Venta_dgv.CurrentTheme.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Venta_dgv.CurrentTheme.HeaderStyle.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold);
             this.Venta_dgv.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.Venta_dgv.CurrentTheme.HeaderStyle.SelectionBackColor = System.Drawing.Color.White;
             this.Venta_dgv.CurrentTheme.HeaderStyle.SelectionForeColor = System.Drawing.Color.White;
             this.Venta_dgv.CurrentTheme.Name = null;
             this.Venta_dgv.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.Venta_dgv.CurrentTheme.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Venta_dgv.CurrentTheme.RowsStyle.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold);
             this.Venta_dgv.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.White;
             this.Venta_dgv.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.White;
             this.Venta_dgv.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.Venta_dgv.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Venta_dgv.DefaultCellStyle = dataGridViewCellStyle13;
             this.Venta_dgv.Enabled = false;
             this.Venta_dgv.EnableHeadersVisualStyles = false;
             this.Venta_dgv.GridColor = System.Drawing.Color.White;
@@ -2545,45 +2419,9 @@
             this.Venta_dgv.RowHeadersWidth = 51;
             this.Venta_dgv.RowTemplate.Height = 40;
             this.Venta_dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.Venta_dgv.Size = new System.Drawing.Size(905, 570);
+            this.Venta_dgv.Size = new System.Drawing.Size(905, 463);
             this.Venta_dgv.TabIndex = 2;
             this.Venta_dgv.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Dark;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.HeaderText = "Nombre";
-            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.HeaderText = "Precio unitario";
-            this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            // 
-            // dataGridViewTextBoxColumn9
-            // 
-            this.dataGridViewTextBoxColumn9.HeaderText = "Impuesto ITBIS";
-            this.dataGridViewTextBoxColumn9.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
-            // 
-            // dataGridViewTextBoxColumn10
-            // 
-            this.dataGridViewTextBoxColumn10.HeaderText = "Cantidad";
-            this.dataGridViewTextBoxColumn10.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
-            // 
-            // dataGridViewTextBoxColumn11
-            // 
-            this.dataGridViewTextBoxColumn11.HeaderText = "Subtotal";
-            this.dataGridViewTextBoxColumn11.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
-            // 
-            // dataGridViewTextBoxColumn12
-            // 
-            this.dataGridViewTextBoxColumn12.HeaderText = "Total";
-            this.dataGridViewTextBoxColumn12.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
             // 
             // Empleados_pg
             // 
@@ -2620,11 +2458,11 @@
             this.bunifuButton24.ColorContrastOnClick = 45;
             this.bunifuButton24.ColorContrastOnHover = 45;
             this.bunifuButton24.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges21.BottomLeft = true;
-            borderEdges21.BottomRight = true;
-            borderEdges21.TopLeft = true;
-            borderEdges21.TopRight = true;
-            this.bunifuButton24.CustomizableEdges = borderEdges21;
+            borderEdges19.BottomLeft = true;
+            borderEdges19.BottomRight = true;
+            borderEdges19.TopLeft = true;
+            borderEdges19.TopRight = true;
+            this.bunifuButton24.CustomizableEdges = borderEdges19;
             this.bunifuButton24.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuButton24.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton24.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -2711,11 +2549,11 @@
             this.bunifuButton25.ColorContrastOnClick = 45;
             this.bunifuButton25.ColorContrastOnHover = 45;
             this.bunifuButton25.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges22.BottomLeft = true;
-            borderEdges22.BottomRight = true;
-            borderEdges22.TopLeft = true;
-            borderEdges22.TopRight = true;
-            this.bunifuButton25.CustomizableEdges = borderEdges22;
+            borderEdges20.BottomLeft = true;
+            borderEdges20.BottomRight = true;
+            borderEdges20.TopLeft = true;
+            borderEdges20.TopRight = true;
+            this.bunifuButton25.CustomizableEdges = borderEdges20;
             this.bunifuButton25.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuButton25.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton25.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -2802,11 +2640,11 @@
             this.bunifuButton26.ColorContrastOnClick = 45;
             this.bunifuButton26.ColorContrastOnHover = 45;
             this.bunifuButton26.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges23.BottomLeft = true;
-            borderEdges23.BottomRight = true;
-            borderEdges23.TopLeft = true;
-            borderEdges23.TopRight = true;
-            this.bunifuButton26.CustomizableEdges = borderEdges23;
+            borderEdges21.BottomLeft = true;
+            borderEdges21.BottomRight = true;
+            borderEdges21.TopLeft = true;
+            borderEdges21.TopRight = true;
+            this.bunifuButton26.CustomizableEdges = borderEdges21;
             this.bunifuButton26.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuButton26.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton26.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -2893,11 +2731,11 @@
             this.bunifuButton27.ColorContrastOnClick = 45;
             this.bunifuButton27.ColorContrastOnHover = 45;
             this.bunifuButton27.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges24.BottomLeft = true;
-            borderEdges24.BottomRight = true;
-            borderEdges24.TopLeft = true;
-            borderEdges24.TopRight = true;
-            this.bunifuButton27.CustomizableEdges = borderEdges24;
+            borderEdges22.BottomLeft = true;
+            borderEdges22.BottomRight = true;
+            borderEdges22.TopLeft = true;
+            borderEdges22.TopRight = true;
+            this.bunifuButton27.CustomizableEdges = borderEdges22;
             this.bunifuButton27.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuButton27.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton27.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -2972,22 +2810,22 @@
             this.EmpleadosDataGridView.AllowUserToDeleteRows = false;
             this.EmpleadosDataGridView.AllowUserToResizeColumns = false;
             this.EmpleadosDataGridView.AllowUserToResizeRows = false;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.Black;
-            this.EmpleadosDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.Black;
+            this.EmpleadosDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle14;
             this.EmpleadosDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.EmpleadosDataGridView.BackgroundColor = System.Drawing.Color.White;
             this.EmpleadosDataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.EmpleadosDataGridView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.EmpleadosDataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.EmpleadosDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.EmpleadosDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle15;
             this.EmpleadosDataGridView.ColumnHeadersHeight = 40;
             this.EmpleadosDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.IDUser,
@@ -3014,14 +2852,14 @@
             this.EmpleadosDataGridView.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
             this.EmpleadosDataGridView.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
             this.EmpleadosDataGridView.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.EmpleadosDataGridView.DefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.EmpleadosDataGridView.DefaultCellStyle = dataGridViewCellStyle17;
             this.EmpleadosDataGridView.EnableHeadersVisualStyles = false;
             this.EmpleadosDataGridView.GridColor = System.Drawing.Color.White;
             this.EmpleadosDataGridView.HeaderBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(43)))), ((int)(((byte)(28)))));
@@ -3038,6 +2876,51 @@
             this.EmpleadosDataGridView.TabIndex = 1;
             this.EmpleadosDataGridView.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Dark;
             this.EmpleadosDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.EmpleadosDataGridView_CellContentClick);
+            // 
+            // IDUser
+            // 
+            this.IDUser.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.IDUser.FillWeight = 1F;
+            this.IDUser.HeaderText = "ID";
+            this.IDUser.MinimumWidth = 2;
+            this.IDUser.Name = "IDUser";
+            this.IDUser.ReadOnly = true;
+            this.IDUser.Visible = false;
+            this.IDUser.Width = 2;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.HeaderText = "Rol";
+            this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.ToolTipText = "Rol";
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.HeaderText = "Nombre";
+            this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.HeaderText = "Apellido";
+            this.dataGridViewTextBoxColumn6.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.HeaderText = "Email";
+            this.dataGridViewTextBoxColumn8.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            // 
+            // Sueldo_cln
+            // 
+            dataGridViewCellStyle16.Format = "●";
+            dataGridViewCellStyle16.NullValue = "●";
+            this.Sueldo_cln.DefaultCellStyle = dataGridViewCellStyle16;
+            this.Sueldo_cln.HeaderText = "Contraseña";
+            this.Sueldo_cln.MinimumWidth = 6;
+            this.Sueldo_cln.Name = "Sueldo_cln";
             // 
             // bunifuFormDock1
             // 
@@ -3161,84 +3044,88 @@
             this.Minimize_pnl.TabIndex = 14;
             this.Minimize_pnl.Click += new System.EventHandler(this.Minimize_pnl_Click);
             // 
-            // IDUser
+            // bunifuLabel6
             // 
-            this.IDUser.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.IDUser.FillWeight = 1F;
-            this.IDUser.HeaderText = "ID";
-            this.IDUser.MinimumWidth = 2;
-            this.IDUser.Name = "IDUser";
-            this.IDUser.ReadOnly = true;
-            this.IDUser.Visible = false;
-            this.IDUser.Width = 2;
+            this.bunifuLabel6.AllowParentOverrides = false;
+            this.bunifuLabel6.AutoEllipsis = false;
+            this.bunifuLabel6.CursorType = null;
+            this.bunifuLabel6.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel6.ForeColor = System.Drawing.Color.Black;
+            this.bunifuLabel6.Location = new System.Drawing.Point(846, 605);
+            this.bunifuLabel6.Margin = new System.Windows.Forms.Padding(2);
+            this.bunifuLabel6.Name = "bunifuLabel6";
+            this.bunifuLabel6.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel6.Size = new System.Drawing.Size(40, 19);
+            this.bunifuLabel6.TabIndex = 29;
+            this.bunifuLabel6.Text = "00.00";
+            this.bunifuLabel6.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel6.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
-            // dataGridViewTextBoxColumn7
+            // bunifuLabel7
             // 
-            this.dataGridViewTextBoxColumn7.HeaderText = "Rol";
-            this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.ToolTipText = "Rol";
+            this.bunifuLabel7.AllowParentOverrides = false;
+            this.bunifuLabel7.AutoEllipsis = false;
+            this.bunifuLabel7.CursorType = null;
+            this.bunifuLabel7.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel7.ForeColor = System.Drawing.Color.Black;
+            this.bunifuLabel7.Location = new System.Drawing.Point(846, 628);
+            this.bunifuLabel7.Margin = new System.Windows.Forms.Padding(2);
+            this.bunifuLabel7.Name = "bunifuLabel7";
+            this.bunifuLabel7.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel7.Size = new System.Drawing.Size(40, 19);
+            this.bunifuLabel7.TabIndex = 30;
+            this.bunifuLabel7.Text = "00.00";
+            this.bunifuLabel7.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel7.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
-            // dataGridViewTextBoxColumn5
+            // bunifuLabel8
             // 
-            this.dataGridViewTextBoxColumn5.HeaderText = "Nombre";
-            this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.bunifuLabel8.AllowParentOverrides = false;
+            this.bunifuLabel8.AutoEllipsis = false;
+            this.bunifuLabel8.CursorType = null;
+            this.bunifuLabel8.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel8.ForeColor = System.Drawing.Color.Black;
+            this.bunifuLabel8.Location = new System.Drawing.Point(846, 651);
+            this.bunifuLabel8.Margin = new System.Windows.Forms.Padding(2);
+            this.bunifuLabel8.Name = "bunifuLabel8";
+            this.bunifuLabel8.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel8.Size = new System.Drawing.Size(40, 19);
+            this.bunifuLabel8.TabIndex = 31;
+            this.bunifuLabel8.Text = "00.00";
+            this.bunifuLabel8.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel8.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
-            // dataGridViewTextBoxColumn6
+            // dataGridViewTextBoxColumn3
             // 
-            this.dataGridViewTextBoxColumn6.HeaderText = "Apellido";
-            this.dataGridViewTextBoxColumn6.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            dataGridViewCellStyle10.NullValue = null;
+            this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle10;
+            this.dataGridViewTextBoxColumn3.HeaderText = "Nombre";
+            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             // 
-            // dataGridViewTextBoxColumn8
+            // dataGridViewTextBoxColumn4
             // 
-            this.dataGridViewTextBoxColumn8.HeaderText = "Email";
-            this.dataGridViewTextBoxColumn8.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            dataGridViewCellStyle11.Format = "C2";
+            dataGridViewCellStyle11.NullValue = null;
+            this.dataGridViewTextBoxColumn4.DefaultCellStyle = dataGridViewCellStyle11;
+            this.dataGridViewTextBoxColumn4.HeaderText = "Precio unitario";
+            this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             // 
-            // Sueldo_cln
+            // dataGridViewTextBoxColumn9
             // 
-            dataGridViewCellStyle13.Format = "●";
-            dataGridViewCellStyle13.NullValue = "●";
-            this.Sueldo_cln.DefaultCellStyle = dataGridViewCellStyle13;
-            this.Sueldo_cln.HeaderText = "Contraseña";
-            this.Sueldo_cln.MinimumWidth = 6;
-            this.Sueldo_cln.Name = "Sueldo_cln";
+            dataGridViewCellStyle12.Format = "C2";
+            dataGridViewCellStyle12.NullValue = null;
+            this.dataGridViewTextBoxColumn9.DefaultCellStyle = dataGridViewCellStyle12;
+            this.dataGridViewTextBoxColumn9.HeaderText = "Impuesto ITBIS";
+            this.dataGridViewTextBoxColumn9.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
             // 
-            // ID
+            // dataGridViewTextBoxColumn10
             // 
-            this.ID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.ID.FillWeight = 1F;
-            this.ID.HeaderText = "ID";
-            this.ID.MinimumWidth = 2;
-            this.ID.Name = "ID";
-            this.ID.Visible = false;
-            this.ID.Width = 2;
-            // 
-            // Nombre_producto
-            // 
-            this.Nombre_producto.FillWeight = 153.1749F;
-            this.Nombre_producto.HeaderText = "Nombre";
-            this.Nombre_producto.MinimumWidth = 6;
-            this.Nombre_producto.Name = "Nombre_producto";
-            // 
-            // Columna_Precio
-            // 
-            dataGridViewCellStyle3.Format = "C2";
-            dataGridViewCellStyle3.NullValue = null;
-            this.Columna_Precio.DefaultCellStyle = dataGridViewCellStyle3;
-            this.Columna_Precio.FillWeight = 153.1749F;
-            this.Columna_Precio.HeaderText = "Precio";
-            this.Columna_Precio.MinimumWidth = 6;
-            this.Columna_Precio.Name = "Columna_Precio";
-            // 
-            // Impuesto_cln
-            // 
-            this.Impuesto_cln.FillWeight = 153.1749F;
-            this.Impuesto_cln.HeaderText = "Cantidad";
-            this.Impuesto_cln.MinimumWidth = 6;
-            this.Impuesto_cln.Name = "Impuesto_cln";
+            this.dataGridViewTextBoxColumn10.HeaderText = "Cantidad";
+            this.dataGridViewTextBoxColumn10.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
             // 
             // Dashboard_form
             // 
@@ -3250,6 +3137,7 @@
             this.Controls.Add(this.PestañasV);
             this.Controls.Add(this.Side_bar);
             this.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Dashboard_form";
@@ -3330,16 +3218,6 @@
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton2 Search_btn;
         private Bunifu.UI.WinForms.BunifuCircleProgress bunifuCircleProgress1;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton2 Print_btm;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton2 NC_btn;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton2 bunifuButton21;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel4;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel3;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDUser;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
@@ -3350,5 +3228,15 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre_producto;
         private System.Windows.Forms.DataGridViewTextBoxColumn Columna_Precio;
         private System.Windows.Forms.DataGridViewTextBoxColumn Impuesto_cln;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel5;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel4;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel3;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel8;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel7;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
     }
 }

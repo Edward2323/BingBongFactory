@@ -298,5 +298,7 @@ namespace Bing_Bong_Factory
                 sign.Show();
             }
         }
+
+        
     }
 }

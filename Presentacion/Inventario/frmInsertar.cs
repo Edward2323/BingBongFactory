@@ -15,10 +15,15 @@ namespace Bing_Bong_Factory.Presentacion.Inventario
     
     public partial class frmInsertar : Form
     {
+        
         DBconnection db = new DBconnection();
+       
+
+
         public frmInsertar()
         {
             InitializeComponent();
+           
         }
 
         private void bunifuLabel3_Click(object sender, EventArgs e)
