@@ -17,6 +17,7 @@ namespace Bing_Bong_Factory
     public partial class Login_form : Form
     {
         private DBconnection db = new DBconnection();
+        public string UserRol;
         public Login_form()
         {
             InitializeComponent();
@@ -39,7 +40,7 @@ namespace Bing_Bong_Factory
 
         private void Register_click(object sender, EventArgs e)
         {
-            Sign_in reg = new Sign_in();
+            Sign_inInsert reg = new Sign_inInsert();
             reg.Show();
             this.Hide();
         }
@@ -71,16 +72,16 @@ namespace Bing_Bong_Factory
 
         private void Login_btn_clicl(object sender, EventArgs e)
         {
-           // if (db.LoginExict(bunifuTextBox1.Text, bunifuTextBox2.Text))
-            //{
-                Dashboard_form dashboard_Form = new Dashboard_form();
+            if (db.LoginExict(bunifuTextBox1.Text, bunifuTextBox2.Text) != null)
+            {
+                Dashboard_form dashboard_Form = new Dashboard_form(bunifuTextBox1.Text, db.LoginExict(bunifuTextBox1.Text, bunifuTextBox2.Text));
                 dashboard_Form.Show();
                 this.Hide();
-          //}
-           // else
-            //{
-              // MessageBox.Show("Usuario o contraseña incorrectos");
-            //}
+            }
+            else
+            {
+                MessageBox.Show("Usuario o contraseña incorrectos");
+            }
         }
 
         private void Side_Panel_Paint(object sender, PaintEventArgs e)

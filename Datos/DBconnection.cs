@@ -7,7 +7,6 @@ using System.Data.SqlClient;
 using System.Security.Cryptography.X509Certificates;
 using System.Data;
 using System.Windows.Forms;
-using Bunifu.Framework.UI;
 
 namespace Bing_Bong_Factory.Datos
 {
@@ -72,22 +71,30 @@ namespace Bing_Bong_Factory.Datos
                 return Data;
             }
         }
-        public bool LoginExict(string User_email,string password)
-        {    
+
+        //Metodo para insertar un producto
+        public bool InserProduct(List<string> ls)
+        {
             using (SqlConnection con = new SqlConnection(connectionString))
             {
                 try
                 {
                     con.Open();
-                    using (SqlCommand cmd = new SqlCommand("Login", con))
+                    using (SqlCommand cmd = new SqlCommand("AddProduct", con))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
-                        cmd.Parameters.AddWithValue("@User_email", User_email);
-                        cmd.Parameters.AddWithValue("@User_password", password);
 
-                        using (SqlDataReader rd = cmd.ExecuteReader())
+                        //Agregar parametros al llamado del procedimiento
+                        cmd.Parameters.AddWithValue("@Product_name", ls[0]);
+                        cmd.Parameters.AddWithValue("@Unit_price", ls[1]);
+                        cmd.Parameters.AddWithValue("@Unit_in_stock", ls[2]);
+
+                        cmd.ExecuteNonQuery();
+
+                        using (SqlCommand checkError = new SqlCommand("SELECT @@ERROR", con))
                         {
-                            if (rd.HasRows)
+                            int errorCode = (int)checkError.ExecuteScalar();
+                            if (errorCode == 0)
                             {
                                 return true;
                             }
@@ -101,8 +108,43 @@ namespace Bing_Bong_Factory.Datos
                 catch (Exception ex)
                 {
                     MessageBox.Show("Error: " + ex.Message);
+                    return false;
                 }
-                return false;
+
+
+            }
+        }
+        public string LoginExict(string User_email, string password)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    con.Open();
+                    using (SqlCommand cmd = new SqlCommand("Login", con))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@User_email", User_email);
+                        cmd.Parameters.AddWithValue("@User_password", password);
+
+                        using (SqlDataReader rd = cmd.ExecuteReader())
+                        {
+                            if (rd.Read())
+                            {
+                                return rd.GetString(0);
+                            }
+                            else
+                            {
+                                return null;
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: " + ex.Message);
+                }
+                return null;
             }
         }
         public bool UserInsert(string User_rol, string User_firstname, string User_lastname, string User_email, string password)
@@ -136,6 +178,7 @@ namespace Bing_Bong_Factory.Datos
                                 return false;
                             }
                         }
+
                     }
                 }
                 catch (Exception ex)
@@ -145,48 +188,101 @@ namespace Bing_Bong_Factory.Datos
                 return false;
             }
         }
-        
-            //Metodo para insertar un producto
-            public bool InserProduct(List<string> ls)
+        public List<DataGridViewRow> GetUserLogin()
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
             {
-                using (SqlConnection con = new SqlConnection(connectionString))
+                List<DataGridViewRow> Data = new List<DataGridViewRow>();
+                try
                 {
-                    try
+                    con.Open();
+                    string qry = "SELECT * FROM UserLogin;";
+                    using (SqlCommand cmd = new SqlCommand(qry, con))
                     {
-                        con.Open();
-                        using (SqlCommand cmd = new SqlCommand("AddProduct", con))
+                        using (SqlDataReader rd = cmd.ExecuteReader())
                         {
-                            cmd.CommandType = CommandType.StoredProcedure;
-
-                            //Agregar parametros al llamado del procedimiento
-                            cmd.Parameters.AddWithValue("@Product_name", ls[0]);
-                            cmd.Parameters.AddWithValue("@Unit_price", ls[1]);
-                            cmd.Parameters.AddWithValue("@Unit_in_stock", ls[2]);
-
-                            cmd.ExecuteNonQuery();
-
-                            using (SqlCommand checkError = new SqlCommand("SELECT @@ERROR", con))
+                            while (rd.Read())
                             {
-                                int errorCode = (int)checkError.ExecuteScalar();
-                                if (errorCode == 0)
+                                DataGridViewRow tem = new DataGridViewRow();
+                                for (int i = 0; i < rd.FieldCount; i++)
                                 {
-                                    return true;
+                                    tem.Cells.Add(new DataGridViewTextBoxCell());
+                                    tem.Cells[i].Value = rd[i];
                                 }
-                                else
-                                {
-                                    return false;
-                                }
+                                Data.Add(tem);
                             }
                         }
                     }
-                    catch (Exception ex)
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: " + ex.Message);
+                }
+                return Data;
+            }
+        }
+        public void DeleteUserLogin(int UserID)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    con.Open();
+                    using (SqlCommand cmd = new SqlCommand("DeleteUserLogin", con))
                     {
-                        return false;
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@User_id", UserID);
+                        cmd.ExecuteNonQuery();
                     }
-
-
+                    con.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: " + ex.Message);
                 }
             }
+        }
+        public bool UpdateUserLogin(string User_id, string User_rol, string User_firstname, string User_lastname, string User_email, string password)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    con.Open();
+                    using (SqlCommand cmd = new SqlCommand("UpdateUserLogin", con))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+
+                        cmd.Parameters.AddWithValue("@User_id", User_id);
+                        cmd.Parameters.AddWithValue("@User_rol", User_rol);
+                        cmd.Parameters.AddWithValue("@User_firstname", User_firstname);
+                        cmd.Parameters.AddWithValue("@User_lastname", User_lastname);
+                        cmd.Parameters.AddWithValue("@User_email", User_email);
+                        cmd.Parameters.AddWithValue("@User_password", password);
+
+                        cmd.ExecuteNonQuery();
+
+                        using (SqlCommand checkError = new SqlCommand("SELECT @@ERROR", con))
+                        {
+                            int errorCode = (int)checkError.ExecuteScalar();
+                            if (errorCode == 0)
+                            {
+                                return true;
+                            }
+                            else
+                            {
+                                return false;
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: " + ex.Message);
+                }
+                return false;
+            }
+        }
 
         public bool UpdateProduct(string id, string nombre, string precio, string cantidad)
         {
@@ -225,9 +321,7 @@ namespace Bing_Bong_Factory.Datos
                 {
                     return false;
                 }
-
-
             }
         }
-    }
-    }
+    }}
+

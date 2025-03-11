@@ -1,6 +1,7 @@
 ﻿using Bing_Bong_Factory.Datos;
 using Bing_Bong_Factory.Presentacion;
 using Bing_Bong_Factory.Presentacion.Inventario;
+using Bing_Bong_Factory.Presentacion.Registro;
 using Bing_Bong_Factory.Presentacion.Ventas;
 using System;
 using System.Collections.Generic;
@@ -19,24 +20,38 @@ namespace Bing_Bong_Factory
     public partial class Dashboard_form : Form
     {
         private DBconnection db = new DBconnection();
-        public Dashboard_form()
+        private string UserGmail;
+        private string UserRol;
+        public Dashboard_form(string userGmail, string userRol)
         {
+            UserGmail = userGmail;
+            UserRol = userRol;
             InitializeComponent();
             loadData();
         }
 
         public void loadData()
         {
-            List<DataGridViewRow> Data = db.GetProduct();
+            List<DataGridViewRow> DataProducts = db.GetProduct();
 
             dgvProductos.Rows.Clear();
 
-            foreach (DataGridViewRow row in Data)
+            foreach (DataGridViewRow row in DataProducts)
             {
                 dgvProductos.Rows.Add(row);
             }
 
+            List<DataGridViewRow> DataUsers = db.GetUserLogin();
 
+            EmpleadosDataGridView.Rows.Clear();
+
+            foreach (DataGridViewRow row in DataUsers)
+            {
+                EmpleadosDataGridView.Rows.Add(row);
+            }
+
+            bunifuLabel1.Text = UserGmail;
+            bunifuLabel2.Text = UserRol;
         }
 
         private void btnhome_Click(object sender, EventArgs e)
@@ -219,6 +234,54 @@ namespace Bing_Bong_Factory
             else
             {
                 MessageBox.Show("Seleccione el producto que desea eliminar");
+            }
+        }
+
+        private void bunifuButton27_Click(object sender, EventArgs e)
+        {
+            Sign_inInsert sign = new Sign_inInsert();
+            sign.Show();
+        }
+
+        private void Close_pnl_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void EmpleadosDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void bunifuButton25_Click(object sender, EventArgs e)
+        {
+            if (EmpleadosDataGridView.SelectedRows.Count > 0) // Verifica si hay una fila seleccionada
+            {
+
+                int EmpleadoID = Convert.ToInt32(EmpleadosDataGridView.SelectedRows[0].Cells[0].Value); //tomar el valor de la primera columna seleccionada
+
+                db.DeleteUserLogin(EmpleadoID);
+
+                EmpleadosDataGridView.Rows.RemoveAt(EmpleadosDataGridView.SelectedRows[0].Index); // Elimina la fila del DataGridView
+            }
+            else
+            {
+                MessageBox.Show("Seleccione un producto para eliminar.");
+            }
+        }
+
+        private void bunifuButton26_Click(object sender, EventArgs e)
+        {
+            loadData();
+        }
+
+        private void bunifuButton24_Click(object sender, EventArgs e)
+        {
+            if (EmpleadosDataGridView.SelectedRows.Count > 0) // Verifica si hay una fila seleccionada
+            {
+                DataGridViewRow selectedRow = EmpleadosDataGridView.SelectedRows[0];             
+                SignEdit sign = new SignEdit(selectedRow);
+                sign.Show();
             }
         }
     }
