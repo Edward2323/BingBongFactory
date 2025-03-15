@@ -223,13 +223,82 @@ namespace Bing_Bong_Factory
 
         private void Search_btn_Click(object sender, EventArgs e)
         {
-            FrmBuscarP frmBuscarP = new FrmBuscarP();
-            frmBuscarP.Show();
+            using (FrmBuscarP frmBuscarP = new FrmBuscarP(Venta_dgv))
+            {
+                if (frmBuscarP.ShowDialog() == DialogResult.OK) 
+                {
+                    if (frmBuscarP.viewRow != null)
+                    {
+                        foreach (DataGridViewRow row in Venta_dgv.Rows)
+                        {
+                            if (row.Cells[0].Value?.ToString() == frmBuscarP.viewRow.Cells[0].Value?.ToString())
+                            {
+                                int actualqt = Convert.ToInt32(row.Cells[3].Value);
+                                int newqt = Convert.ToInt32(frmBuscarP.viewRow.Cells[3].Value);
+                                row.Cells[3].Value = actualqt + newqt;
+
+                                int Priceunt = Convert.ToInt32(row.Cells[2].Value);
+
+                                row.Cells["Subtotal"].Value = (actualqt + newqt) * Priceunt;
+
+                                Actualizarsubtotal();
+
+                                return;
+                            }
+                        }
+                        
+                        DataGridViewRow newRow = (DataGridViewRow)frmBuscarP.viewRow.Clone();
+
+                        for (int i = 0; i < frmBuscarP.viewRow.Cells.Count; i++)
+                        {
+                            newRow.Cells[i].Value = frmBuscarP.viewRow.Cells[i].Value;
+                        }
+
+                        int quantity = Convert.ToInt32(newRow.Cells[2].Value); 
+                        int priceUnit = Convert.ToInt32(newRow.Cells[3].Value); 
+                        int subtotal = quantity * priceUnit;
+
+                        newRow.Cells.Add(new DataGridViewTextBoxCell());
+
+                        newRow.Cells[4].Value = subtotal;
+
+                        Venta_dgv.Rows.Add(newRow);
+
+                        Actualizarsubtotal();
+                    }
+                }
+            }
         }
 
         private void Print_btm_Click(object sender, EventArgs e)
         {
-            if (Venta_dgv.SelectedRows.Count > 0) { }
+            try
+            {
+                if (Venta_dgv.Rows.Count <= 0)
+                {
+                    MessageBox.Show("Debe de añadir productos a la factura");
+                    return;
+                }
+                int OrderID = db.AddOrders(bunifuLabel1.Text);
+
+                for (int i = 0; i < Venta_dgv.Rows.Count - 1; i++)
+                {
+                    int productID = Convert.ToInt32(Venta_dgv.Rows[i].Cells[0].Value);
+                    int Quantity = Convert.ToInt32(Venta_dgv.Rows[i].Cells[3].Value);
+                    db.AddOrderDetails(OrderID, productID, Quantity);
+                }
+
+                MessageBox.Show("Se ha guardado correta la factura");
+
+                Venta_dgv.Rows.Clear();
+
+                Actualizarsubtotal();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         private void NC_btn_Click(object sender, EventArgs e)
@@ -242,7 +311,9 @@ namespace Bing_Bong_Factory
         {
             if (Venta_dgv.SelectedRows.Count > 0)
             {
+                Venta_dgv.Rows.RemoveAt(Venta_dgv.SelectedRows[0].Index);
 
+                Actualizarsubtotal();
             }
             else
             {
@@ -299,6 +370,18 @@ namespace Bing_Bong_Factory
             }
         }
 
-        
+        private void Actualizarsubtotal()
+        {
+            float Total = 0;
+            for (int i = 0; i < Venta_dgv.Rows.Count; i++)
+            {
+                int quantity = Convert.ToInt32(Venta_dgv.Rows[i].Cells[2].Value);
+                int priceUnit = Convert.ToInt32(Venta_dgv.Rows[i].Cells[3].Value);
+
+                Total += quantity * priceUnit;
+            }
+
+            bunifuLabel6.Text = Total.ToString("C");
+        }
     }
 }

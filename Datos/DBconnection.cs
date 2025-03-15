@@ -323,5 +323,60 @@ namespace Bing_Bong_Factory.Datos
                 }
             }
         }
-    }}
+        public int AddOrders(string EmployeeName)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    con.Open();
+                    using (SqlCommand cmd = new SqlCommand("AddOrders", con))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+
+                        cmd.Parameters.AddWithValue("@Employee_name", EmployeeName);
+
+                        SqlParameter returnParameter = new SqlParameter();
+                        returnParameter.Direction = ParameterDirection.ReturnValue;
+                        cmd.Parameters.Add(returnParameter);
+
+                        cmd.ExecuteNonQuery();
+
+                        return Convert.ToInt32(returnParameter.Value);
+
+                    }
+                }
+                catch (Exception ex)
+                {
+                    return -1;
+                }
+            }
+        }
+        public void AddOrderDetails(int OrderID, int ProductID, int Quantity)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    con.Open();
+                    using (SqlCommand cmd = new SqlCommand("AddOrderDetails", con))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+
+                        cmd.Parameters.AddWithValue("@Order_id", OrderID);
+                        cmd.Parameters.AddWithValue("@Product_id", ProductID);
+                        cmd.Parameters.AddWithValue("@Quantity", Quantity);
+
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    return;
+                }
+            }
+        }
+    }
+    
+}
 
