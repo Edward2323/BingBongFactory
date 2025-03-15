@@ -192,19 +192,16 @@ END;
 GO
 
 -- Eliminar los registros de todas las tablas
-
-TRUNCATE TABLE Products;
-
 DELETE FROM UserLogin;
 DELETE FROM Products;
 DELETE FROM Orders;
 DELETE FROM Order_Details;
 
+
 -- Se reinicia el identity de todas las tablas
 DBCC CHECKIDENT ('UserLogin', RESEED, 0);
 DBCC CHECKIDENT ('Products', RESEED, 0);
 DBCC CHECKIDENT ('Orders', RESEED, 0);
-DBCC CHECKIDENT ('Order_Details', RESEED, 0);
 
 -- Se inserta dos usuarios a UserLogin
 EXEC AddUserLogin 'Admin', '', '', 'Admin', '123';
